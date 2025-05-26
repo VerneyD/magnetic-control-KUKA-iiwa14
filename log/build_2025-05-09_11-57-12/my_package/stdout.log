@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/command_publisher3.dir/src/command_publisher3.cpp.o[0m
+[ 50%] Built target command_publisher2
+[ 83%] Built target command_listener

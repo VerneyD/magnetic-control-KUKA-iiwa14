@@ -1,0 +1,1 @@
+/home/srl/lbr-stack/src/build/lbr_fri_idl/rosidl_generator_py/lbr_fri_idl/msg/__init__.py

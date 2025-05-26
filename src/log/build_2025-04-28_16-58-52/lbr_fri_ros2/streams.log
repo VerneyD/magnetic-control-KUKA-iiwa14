@@ -1,0 +1,116 @@
+[0.011s] Invoking command in '/home/srl/lbr-stack/src/build/lbr_fri_ros2': AMENT_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:/home/srl/lbr-stack/src/install/fri_client_sdk:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/command_control:/home/srl/ros2_ws/install/impedance_controller:/home/srl/ros2_ws/install/iiwa_moveit2:/home/srl/ros2_ws/install/iiwa_hardware:/home/srl/ros2_ws/install/iiwa_bringup:/home/srl/ros2_ws/install/iiwa_description:/home/srl/ros2_ws/install/external_torque_sensor_broadcaster:/home/srl/ros2_ws/install/command_package:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/lib:/home/srl/lbr-stack/src/install/fri_client_sdk/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/srl/lbr-stack/src/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/src/install/fri_client_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/srl/lbr-stack/src/lbr_fri_ros2_stack/lbr_fri_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/src/install/lbr_fri_ros2
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.162s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.341s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.427s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.433s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.440s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.469s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.525s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[0.532s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.534s] -- Found lbr_fri_idl: 1.5.0 (/home/srl/lbr-stack/src/install/lbr_fri_idl/share/lbr_fri_idl/cmake)
+[0.542s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.572s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.574s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.654s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.675s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.721s] -- Looking for pthread.h
+[0.783s] -- Looking for pthread.h - found
+[0.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.853s] -- Found Threads: TRUE  
+[0.880s] -- Found realtime_tools: 2.12.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[0.906s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.936s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.938s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.980s] -- Configuring done
+[0.992s] -- Generating done
+[0.995s] -- Build files have been written to: /home/srl/lbr-stack/src/build/lbr_fri_ros2
+[1.003s] Invoked command in '/home/srl/lbr-stack/src/build/lbr_fri_ros2' returned '0': AMENT_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:/home/srl/lbr-stack/src/install/fri_client_sdk:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/command_control:/home/srl/ros2_ws/install/impedance_controller:/home/srl/ros2_ws/install/iiwa_moveit2:/home/srl/ros2_ws/install/iiwa_hardware:/home/srl/ros2_ws/install/iiwa_bringup:/home/srl/ros2_ws/install/iiwa_description:/home/srl/ros2_ws/install/external_torque_sensor_broadcaster:/home/srl/ros2_ws/install/command_package:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/lib:/home/srl/lbr-stack/src/install/fri_client_sdk/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/srl/lbr-stack/src/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/src/install/fri_client_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/srl/lbr-stack/src/lbr_fri_ros2_stack/lbr_fri_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/src/install/lbr_fri_ros2
+[1.003s] Invoking command in '/home/srl/lbr-stack/src/build/lbr_fri_ros2': AMENT_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:/home/srl/lbr-stack/src/install/fri_client_sdk:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/command_control:/home/srl/ros2_ws/install/impedance_controller:/home/srl/ros2_ws/install/iiwa_moveit2:/home/srl/ros2_ws/install/iiwa_hardware:/home/srl/ros2_ws/install/iiwa_bringup:/home/srl/ros2_ws/install/iiwa_description:/home/srl/ros2_ws/install/external_torque_sensor_broadcaster:/home/srl/ros2_ws/install/command_package:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/lib:/home/srl/lbr-stack/src/install/fri_client_sdk/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/srl/lbr-stack/src/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/src/install/fri_client_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/srl/lbr-stack/src/build/lbr_fri_ros2 -- -j20 -l20
+[1.047s] [ 20%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/control.cpp.o[0m
+[1.047s] [ 20%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/async_client.cpp.o[0m
+[1.047s] [ 20%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/command_guard.cpp.o[0m
+[1.047s] [ 20%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/app.cpp.o[0m
+[1.047s] [ 30%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/filters.cpp.o[0m
+[1.047s] [ 30%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/interfaces/state.cpp.o[0m
+[1.048s] [ 35%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/interfaces/base_command.cpp.o[0m
+[1.048s] [ 40%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/kinematics.cpp.o[0m
+[1.049s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.049s] [ 50%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/interfaces/torque_command.cpp.o[0m
+[1.049s] [ 55%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/interfaces/position_command.cpp.o[0m
+[1.050s] [ 60%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.050s] [ 65%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/interfaces/wrench_command.cpp.o[0m
+[1.052s] [ 70%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/ft_estimator.cpp.o[0m
+[1.052s] [ 75%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/worker.cpp.o[0m
+[1.858s] [ 80%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.888s] [ 80%] Built target gtest_main
+[6.742s] [ 85%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.777s] [ 85%] Built target gtest
+[10.456s] [ 90%] [32m[1mLinking CXX shared library liblbr_fri_ros2.so[0m
+[10.536s] [ 90%] Built target lbr_fri_ros2
+[10.554s] [ 95%] [32mBuilding CXX object CMakeFiles/test_command_interfaces.dir/test/test_command_interfaces.cpp.o[0m
+[11.673s] [100%] [32m[1mLinking CXX executable test_command_interfaces[0m
+[11.746s] [100%] Built target test_command_interfaces
+[11.755s] Invoked command in '/home/srl/lbr-stack/src/build/lbr_fri_ros2' returned '0': AMENT_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:/home/srl/lbr-stack/src/install/fri_client_sdk:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/command_control:/home/srl/ros2_ws/install/impedance_controller:/home/srl/ros2_ws/install/iiwa_moveit2:/home/srl/ros2_ws/install/iiwa_hardware:/home/srl/ros2_ws/install/iiwa_bringup:/home/srl/ros2_ws/install/iiwa_description:/home/srl/ros2_ws/install/external_torque_sensor_broadcaster:/home/srl/ros2_ws/install/command_package:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/lib:/home/srl/lbr-stack/src/install/fri_client_sdk/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/srl/lbr-stack/src/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/src/install/fri_client_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/srl/lbr-stack/src/build/lbr_fri_ros2 -- -j20 -l20
+[11.755s] Invoking command in '/home/srl/lbr-stack/src/build/lbr_fri_ros2': AMENT_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:/home/srl/lbr-stack/src/install/fri_client_sdk:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/command_control:/home/srl/ros2_ws/install/impedance_controller:/home/srl/ros2_ws/install/iiwa_moveit2:/home/srl/ros2_ws/install/iiwa_hardware:/home/srl/ros2_ws/install/iiwa_bringup:/home/srl/ros2_ws/install/iiwa_description:/home/srl/ros2_ws/install/external_torque_sensor_broadcaster:/home/srl/ros2_ws/install/command_package:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/lib:/home/srl/lbr-stack/src/install/fri_client_sdk/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/srl/lbr-stack/src/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/src/install/fri_client_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/srl/lbr-stack/src/build/lbr_fri_ros2
+[11.761s] -- Install configuration: "Release"
+[11.761s] -- Execute custom install script
+[11.761s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.sh
+[11.767s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.dsv
+[11.776s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/app.hpp
+[11.784s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/async_client.hpp
+[11.791s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/command_guard.hpp
+[11.798s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/control.hpp
+[11.805s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/filters.hpp
+[11.811s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/formatting.hpp
+[11.818s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/ft_estimator.hpp
+[11.826s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/interfaces/base_command.hpp
+[11.832s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/interfaces/position_command.hpp
+[11.838s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/interfaces/state.hpp
+[11.846s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/interfaces/torque_command.hpp
+[11.852s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/interfaces/wrench_command.hpp
+[11.859s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/kinematics.hpp
+[11.864s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/pinv.hpp
+[11.870s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/types.hpp
+[11.875s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/utils.hpp
+[11.881s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/include/lbr_fri_ros2/worker.hpp
+[11.889s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/ament_index/resource_index/package_run_dependencies/lbr_fri_ros2
+[11.896s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/ament_index/resource_index/parent_prefix_path/lbr_fri_ros2
+[11.904s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.sh
+[11.914s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.dsv
+[11.923s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.sh
+[11.934s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.dsv
+[11.941s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.bash
+[11.951s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.sh
+[11.958s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.zsh
+[11.964s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.dsv
+[11.970s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/package.dsv
+[11.977s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/ament_index/resource_index/packages/lbr_fri_ros2
+[11.985s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[11.995s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.003s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config.cmake
+[12.012s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config-version.cmake
+[12.021s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/package.xml
+[12.030s] -- Installing: /home/srl/lbr-stack/src/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so
+[12.031s] -- Set runtime path of "/home/srl/lbr-stack/src/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so" to ""
+[12.031s] -- Installing: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport.cmake
+[12.031s] -- Installing: /home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport-release.cmake
+[12.033s] Invoked command in '/home/srl/lbr-stack/src/build/lbr_fri_ros2' returned '0': AMENT_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl:/home/srl/lbr-stack/src/install/lbr_description:/home/srl/lbr-stack/src/install/fri_client_sdk:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/command_control:/home/srl/ros2_ws/install/impedance_controller:/home/srl/ros2_ws/install/iiwa_moveit2:/home/srl/ros2_ws/install/iiwa_hardware:/home/srl/ros2_ws/install/iiwa_bringup:/home/srl/ros2_ws/install/iiwa_description:/home/srl/ros2_ws/install/external_torque_sensor_broadcaster:/home/srl/ros2_ws/install/command_package:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/lib:/home/srl/lbr-stack/src/install/fri_client_sdk/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/srl/lbr-stack/src/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/src/install/fri_client_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/srl/lbr-stack/src/install/lbr_fri_idl/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/srl/lbr-stack/src/build/lbr_fri_ros2

@@ -1,0 +1,40 @@
+[0.219s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[0.280s] [ 25%] Built target command_publisher2
+[0.280s] [ 50%] Built target command_listener
+[0.281s] [ 62%] [32mBuilding CXX object CMakeFiles/reset_position.dir/src/reset_position.cpp.o[0m
+[0.284s] [ 87%] Built target command_publisher3
+[2.413s] [01m[K/home/srl/lbr-stack/src/my_package/src/reset_position.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryCommander::publish_trajectory()[m[K’:
+[2.413s] [01m[K/home/srl/lbr-stack/src/my_package/src/reset_position.cpp:42:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kelapsed_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.413s]    42 |         double [01;35m[Kelapsed_time[m[K = publish_count_ * 0.1; // chaque publication prend 100 ms
+[2.414s]       |                [01;35m[K^~~~~~~~~~~~[m[K
+[3.924s] [100%] [32m[1mLinking CXX executable reset_position[0m
+[4.068s] [100%] Built target reset_position
+[4.082s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[4.083s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package
+[4.092s] -- Install configuration: ""
+[4.092s] -- Execute custom install script
+[4.092s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher2
+[4.092s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_listener
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher3
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/reset_position
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my.launch.py
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_launch2.launch.py
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_launch3.launch.py
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_launch_rviz.launch.py
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_reset.launch.py
+[4.093s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.sh
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.dsv
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.bash
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.sh
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.zsh
+[4.094s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.dsv
+[4.094s] -- Symlinking: /home/srl/lbr-stack/install/my_package/share/my_package/package.dsv
+[4.103s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/packages/my_package
+[4.103s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[4.103s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[4.103s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/package.xml
+[4.105s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package

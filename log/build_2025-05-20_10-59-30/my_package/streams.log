@@ -1,0 +1,75 @@
+[0.179s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[0.207s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.343s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.355s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.387s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.389s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.394s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.462s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.505s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.545s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.546s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.675s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.731s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.731s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.826s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.827s] -- Configured cppcheck include dirs: 
+[0.827s] -- Configured cppcheck exclude dirs and/or files: 
+[0.828s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.831s] -- Added test 'lint_cmake' to check CMake code style
+[0.833s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.844s] -- Added test 'uncrustify' to check C / C++ code style
+[0.844s] -- Configured uncrustify additional arguments: 
+[0.846s] -- Added test 'xmllint' to check XML markup files
+[0.849s] -- Configuring done
+[0.889s] -- Generating done
+[0.907s] -- Build files have been written to: /home/srl/lbr-stack/build/my_package
+[0.938s] [35m[1mConsolidate compiler generated dependencies of target robot_info[0m
+[0.939s] [35m[1mConsolidate compiler generated dependencies of target command_publisher3[0m
+[0.939s] [35m[1mConsolidate compiler generated dependencies of target reset_position[0m
+[0.939s] [35m[1mConsolidate compiler generated dependencies of target command_listener[0m
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target command_publisher2[0m
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target robot_info_controller[0m
+[0.958s] [ 16%] Built target command_publisher2
+[0.958s] [ 25%] [32mBuilding CXX object CMakeFiles/reset_position.dir/src/reset_position.cpp.o[0m
+[0.958s] [ 41%] Built target command_publisher3
+[0.959s] [ 58%] Built target command_listener
+[0.959s] [ 75%] Built target robot_info_controller
+[0.962s] [ 91%] Built target robot_info
+[6.474s] [100%] [32m[1mLinking CXX executable reset_position[0m
+[6.730s] [100%] Built target reset_position
+[6.740s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[6.742s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package
+[6.746s] -- Install configuration: ""
+[6.746s] -- Execute custom install script
+[6.746s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher2
+[6.746s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_listener
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher3
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/reset_position
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/robot_info
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/robot_info_controller
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my.launch.py
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_launch2.launch.py
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_launch3.launch.py
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_launch_rviz.launch.py
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_reset.launch.py
+[6.747s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/my_robot_info.launch.py
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.sh
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.dsv
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.bash
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.sh
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.zsh
+[6.748s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.dsv
+[6.749s] -- Symlinking: /home/srl/lbr-stack/install/my_package/share/my_package/package.dsv
+[6.755s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/packages/my_package
+[6.755s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[6.755s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[6.755s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/package.xml
+[6.757s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package

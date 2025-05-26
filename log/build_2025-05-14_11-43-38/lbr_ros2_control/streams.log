@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/srl/lbr-stack/build/lbr_ros2_control': AMENT_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk LD_LIBRARY_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib PKG_CONFIG_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig PYTHONPATH=/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_ros2_control -- -j20 -l20
+[0.058s] [100%] Built target lbr_ros2_control
+[0.132s] Invoked command in '/home/srl/lbr-stack/build/lbr_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk LD_LIBRARY_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib PKG_CONFIG_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig PYTHONPATH=/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_ros2_control -- -j20 -l20
+[0.133s] Invoking command in '/home/srl/lbr-stack/build/lbr_ros2_control': AMENT_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk LD_LIBRARY_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib PKG_CONFIG_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig PYTHONPATH=/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_ros2_control
+[0.139s] -- Install configuration: "Release"
+[0.140s] -- Execute custom install script
+[0.140s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/plugin_description_files/controllers.xml
+[0.140s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/plugin_description_files/system_interface.xml
+[0.140s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/environment/library_path.sh
+[0.140s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/environment/library_path.dsv
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/controllers/admittance_controller.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/controllers/lbr_joint_position_command_controller.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/controllers/lbr_state_broadcaster.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/controllers/lbr_torque_command_controller.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/controllers/lbr_wrench_command_controller.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/controllers/twist_controller.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/system_interface.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/include/lbr_ros2_control/system_interface_type_values.hpp
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/ament_index/resource_index/package_run_dependencies/lbr_ros2_control
+[0.141s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/ament_index/resource_index/parent_prefix_path/lbr_ros2_control
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/environment/path.sh
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/environment/path.dsv
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/local_setup.bash
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/local_setup.sh
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/local_setup.zsh
+[0.142s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/local_setup.dsv
+[0.142s] -- Symlinking: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/package.dsv
+[0.147s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/ament_index/resource_index/packages/lbr_ros2_control
+[0.147s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/ament_index/resource_index/controller_interface__pluginlib__plugin/lbr_ros2_control
+[0.148s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/lbr_ros2_control
+[0.148s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/cmake/ament_cmake_export_targets-extras.cmake
+[0.148s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.148s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/cmake/lbr_ros2_controlConfig.cmake
+[0.148s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/cmake/lbr_ros2_controlConfig-version.cmake
+[0.149s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/package.xml
+[0.149s] -- Up-to-date: /home/srl/lbr-stack/install/lbr_ros2_control/lib/lbr_ros2_control/liblbr_ros2_control.so
+[0.150s] -- Up-to-date: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/cmake/lbr_ros2_control_exportExport.cmake
+[0.150s] -- Up-to-date: /home/srl/lbr-stack/install/lbr_ros2_control/share/lbr_ros2_control/cmake/lbr_ros2_control_exportExport-release.cmake
+[0.156s] Invoked command in '/home/srl/lbr-stack/build/lbr_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/fri_client_sdk LD_LIBRARY_PATH=/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib PKG_CONFIG_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig PYTHONPATH=/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_ros2_control

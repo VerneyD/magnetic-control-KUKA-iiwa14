@@ -1,0 +1,27 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/srl/lbr-stack/build/lbr_demos_py",
+        "/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages",
+        "/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages",
+        "/home/srl/lbr-stack/build/lbr_moveit",
+        "/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages",
+        "/home/srl/lbr-stack/build/lbr_demos_advanced_py",
+        "/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages",
+        "/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/srl/lbr-stack/build/lbr_demos_py",
+        "/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages",
+        "/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages",
+        "/home/srl/lbr-stack/build/lbr_moveit",
+        "/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages",
+        "/home/srl/lbr-stack/build/lbr_demos_advanced_py",
+        "/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages",
+        "/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

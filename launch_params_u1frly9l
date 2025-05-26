@@ -1,0 +1,369 @@
+/**:
+  ros__parameters:
+    default_planning_pipeline: ompl
+    moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+    moveit_manage_controllers: true
+    moveit_simple_controller_manager.controller_names: !!python/tuple
+    - joint_trajectory_controller
+    moveit_simple_controller_manager.joint_trajectory_controller.action_ns: follow_joint_trajectory
+    moveit_simple_controller_manager.joint_trajectory_controller.default: true
+    moveit_simple_controller_manager.joint_trajectory_controller.joints: !!python/tuple
+    - lbr_A1
+    - lbr_A2
+    - lbr_A3
+    - lbr_A4
+    - lbr_A5
+    - lbr_A6
+    - lbr_A7
+    moveit_simple_controller_manager.joint_trajectory_controller.type: FollowJointTrajectory
+    ompl.jiggle_fraction: 0.05
+    ompl.planner_configs.AnytimePathShortening.hybridize: 1
+    ompl.planner_configs.AnytimePathShortening.max_hybrid_paths: 24
+    ompl.planner_configs.AnytimePathShortening.num_planners: 4
+    ompl.planner_configs.AnytimePathShortening.planners: ''
+    ompl.planner_configs.AnytimePathShortening.shortcut: 1
+    ompl.planner_configs.AnytimePathShortening.type: geometric::AnytimePathShortening
+    ompl.planner_configs.BFMT.balanced: 0
+    ompl.planner_configs.BFMT.cache_cc: 1
+    ompl.planner_configs.BFMT.extended_fmt: 1
+    ompl.planner_configs.BFMT.heuristics: 1
+    ompl.planner_configs.BFMT.nearest_k: 1
+    ompl.planner_configs.BFMT.num_samples: 1000
+    ompl.planner_configs.BFMT.optimality: 1
+    ompl.planner_configs.BFMT.radius_multiplier: 1.0
+    ompl.planner_configs.BFMT.type: geometric::BFMT
+    ompl.planner_configs.BKPIECE.border_fraction: 0.9
+    ompl.planner_configs.BKPIECE.failed_expansion_score_factor: 0.5
+    ompl.planner_configs.BKPIECE.min_valid_path_fraction: 0.5
+    ompl.planner_configs.BKPIECE.range: 0.0
+    ompl.planner_configs.BKPIECE.type: geometric::BKPIECE
+    ompl.planner_configs.BiEST.range: 0.0
+    ompl.planner_configs.BiEST.type: geometric::BiEST
+    ompl.planner_configs.BiTRRT.cost_threshold: 1e300
+    ompl.planner_configs.BiTRRT.frountier_node_ratio: 0.1
+    ompl.planner_configs.BiTRRT.frountier_threshold: 0.0
+    ompl.planner_configs.BiTRRT.init_temperature: 100
+    ompl.planner_configs.BiTRRT.range: 0.0
+    ompl.planner_configs.BiTRRT.temp_change_factor: 0.1
+    ompl.planner_configs.BiTRRT.type: geometric::BiTRRT
+    ompl.planner_configs.EST.goal_bias: 0.05
+    ompl.planner_configs.EST.range: 0.0
+    ompl.planner_configs.EST.type: geometric::EST
+    ompl.planner_configs.FMT.cache_cc: 1
+    ompl.planner_configs.FMT.extended_fmt: 1
+    ompl.planner_configs.FMT.heuristics: 0
+    ompl.planner_configs.FMT.nearest_k: 1
+    ompl.planner_configs.FMT.num_samples: 1000
+    ompl.planner_configs.FMT.radius_multiplier: 1.1
+    ompl.planner_configs.FMT.type: geometric::FMT
+    ompl.planner_configs.KPIECE.border_fraction: 0.9
+    ompl.planner_configs.KPIECE.failed_expansion_score_factor: 0.5
+    ompl.planner_configs.KPIECE.goal_bias: 0.05
+    ompl.planner_configs.KPIECE.min_valid_path_fraction: 0.5
+    ompl.planner_configs.KPIECE.range: 0.0
+    ompl.planner_configs.KPIECE.type: geometric::KPIECE
+    ompl.planner_configs.LBKPIECE.border_fraction: 0.9
+    ompl.planner_configs.LBKPIECE.min_valid_path_fraction: 0.5
+    ompl.planner_configs.LBKPIECE.range: 0.0
+    ompl.planner_configs.LBKPIECE.type: geometric::LBKPIECE
+    ompl.planner_configs.LBTRRT.epsilon: 0.4
+    ompl.planner_configs.LBTRRT.goal_bias: 0.05
+    ompl.planner_configs.LBTRRT.range: 0.0
+    ompl.planner_configs.LBTRRT.type: geometric::LBTRRT
+    ompl.planner_configs.LazyPRM.range: 0.0
+    ompl.planner_configs.LazyPRM.type: geometric::LazyPRM
+    ompl.planner_configs.LazyPRMstar.type: geometric::LazyPRMstar
+    ompl.planner_configs.PDST.type: geometric::PDST
+    ompl.planner_configs.PRM.max_nearest_neighbors: 10
+    ompl.planner_configs.PRM.type: geometric::PRM
+    ompl.planner_configs.PRMstar.type: geometric::PRMstar
+    ompl.planner_configs.ProjEST.goal_bias: 0.05
+    ompl.planner_configs.ProjEST.range: 0.0
+    ompl.planner_configs.ProjEST.type: geometric::ProjEST
+    ompl.planner_configs.RRT.goal_bias: 0.05
+    ompl.planner_configs.RRT.range: 0.0
+    ompl.planner_configs.RRT.type: geometric::RRT
+    ompl.planner_configs.RRTConnect.range: 0.0
+    ompl.planner_configs.RRTConnect.type: geometric::RRTConnect
+    ompl.planner_configs.RRTstar.delay_collision_checking: 1
+    ompl.planner_configs.RRTstar.goal_bias: 0.05
+    ompl.planner_configs.RRTstar.range: 0.0
+    ompl.planner_configs.RRTstar.type: geometric::RRTstar
+    ompl.planner_configs.SBL.range: 0.0
+    ompl.planner_configs.SBL.type: geometric::SBL
+    ompl.planner_configs.SPARS.dense_delta_fraction: 0.001
+    ompl.planner_configs.SPARS.max_failures: 1000
+    ompl.planner_configs.SPARS.sparse_delta_fraction: 0.25
+    ompl.planner_configs.SPARS.stretch_factor: 3.0
+    ompl.planner_configs.SPARS.type: geometric::SPARS
+    ompl.planner_configs.SPARStwo.dense_delta_fraction: 0.001
+    ompl.planner_configs.SPARStwo.max_failures: 5000
+    ompl.planner_configs.SPARStwo.sparse_delta_fraction: 0.25
+    ompl.planner_configs.SPARStwo.stretch_factor: 3.0
+    ompl.planner_configs.SPARStwo.type: geometric::SPARStwo
+    ompl.planner_configs.STRIDE.degree: 16
+    ompl.planner_configs.STRIDE.estimated_dimension: 0.0
+    ompl.planner_configs.STRIDE.goal_bias: 0.05
+    ompl.planner_configs.STRIDE.max_degree: 18
+    ompl.planner_configs.STRIDE.max_pts_per_leaf: 6
+    ompl.planner_configs.STRIDE.min_degree: 12
+    ompl.planner_configs.STRIDE.min_valid_path_fraction: 0.2
+    ompl.planner_configs.STRIDE.range: 0.0
+    ompl.planner_configs.STRIDE.type: geometric::STRIDE
+    ompl.planner_configs.STRIDE.use_projected_distance: 0
+    ompl.planner_configs.TRRT.frountierNodeRatio: 0.1
+    ompl.planner_configs.TRRT.frountier_threshold: 0.0
+    ompl.planner_configs.TRRT.goal_bias: 0.05
+    ompl.planner_configs.TRRT.init_temperature: 10e-6
+    ompl.planner_configs.TRRT.k_constant: 0.0
+    ompl.planner_configs.TRRT.max_states_failed: 10
+    ompl.planner_configs.TRRT.min_temperature: 10e-10
+    ompl.planner_configs.TRRT.range: 0.0
+    ompl.planner_configs.TRRT.temp_change_factor: 2.0
+    ompl.planner_configs.TRRT.type: geometric::TRRT
+    ompl.planning_plugin: ompl_interface/OMPLPlanner
+    ompl.request_adapters: default_planner_request_adapters/AddTimeOptimalParameterization
+      default_planner_request_adapters/ResolveConstraintFrames default_planner_request_adapters/FixWorkspaceBounds
+      default_planner_request_adapters/FixStartStateBounds default_planner_request_adapters/FixStartStateCollision
+      default_planner_request_adapters/FixStartStatePathConstraints
+    ompl.start_state_max_bounds_error: 0.1
+    planning_pipelines: !!python/tuple
+    - ompl
+    publish_geometry_updates: true
+    publish_planning_scene: true
+    publish_robot_description: false
+    publish_robot_description_semantic: false
+    publish_state_updates: true
+    publish_transforms_updates: true
+    robot_description: "<?xml version=\"1.0\" ?><!-- ===================================================================================\
+      \ --><!-- |    This document was autogenerated by xacro from /home/srl/lbr-stack/install/lbr_description/share/lbr_description/urdf/iiwa14/iiwa14.xacro\
+      \ | --><!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED              \
+      \                   | --><!-- ===================================================================================\
+      \ --><!-- top level --><robot name=\"iiwa14\"><!-- KDL requires a link without\
+      \ inertia / Gazebo requires a connection to world link or robot\n    will tipple\
+      \ https://github.com/lbr-stack/lbr_fri_ros2_stack/issues/230 --><link name=\"\
+      world\"/><!--joint\n        between <robot_name>_world_link and robot_name_link_0--><joint\
+      \ name=\"lbr_world_joint\" type=\"fixed\"><parent link=\"world\"/><child link=\"\
+      lbr_link_0\"/></joint><!-- ros_control-plugin --><gazebo><plugin filename=\"\
+      ign_ros2_control-system\" name=\"ign_ros2_control::IgnitionROS2ControlPlugin\"\
+      ><parameters>/home/srl/lbr-stack/install/lbr_description/share/lbr_description/ros2_control/lbr_controllers.yaml</parameters><ros><namespace>/lbr</namespace></ros></plugin></gazebo><gazebo\
+      \ reference=\"lbr_link_0\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><gazebo reference=\"\
+      lbr_A1\"><implicitSpringDamper>true</implicitSpringDamper><provideFeedback>true</provideFeedback></gazebo><gazebo\
+      \ reference=\"lbr_link_1\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><gazebo reference=\"\
+      lbr_A2\"><implicitSpringDamper>true</implicitSpringDamper><provideFeedback>true</provideFeedback></gazebo><gazebo\
+      \ reference=\"lbr_link_2\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><gazebo reference=\"\
+      lbr_A3\"><implicitSpringDamper>true</implicitSpringDamper><provideFeedback>true</provideFeedback></gazebo><gazebo\
+      \ reference=\"lbr_link_3\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><gazebo reference=\"\
+      lbr_A4\"><implicitSpringDamper>true</implicitSpringDamper><provideFeedback>true</provideFeedback></gazebo><gazebo\
+      \ reference=\"lbr_link_4\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><gazebo reference=\"\
+      lbr_A5\"><implicitSpringDamper>true</implicitSpringDamper><provideFeedback>true</provideFeedback></gazebo><gazebo\
+      \ reference=\"lbr_link_5\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><gazebo reference=\"\
+      lbr_A6\"><implicitSpringDamper>true</implicitSpringDamper><provideFeedback>true</provideFeedback></gazebo><gazebo\
+      \ reference=\"lbr_link_6\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><gazebo reference=\"\
+      lbr_A7\"><implicitSpringDamper>true</implicitSpringDamper><provideFeedback>true</provideFeedback></gazebo><gazebo\
+      \ reference=\"lbr_link_7\"><mu1>0.2</mu1><mu2>0.2</mu2></gazebo><ros2_control\
+      \ name=\"lbr_system_interface\" type=\"system\"><joint name=\"lbr_A1\"><command_interface\
+      \ name=\"position\"><param name=\"min\">-2.9670597283903604</param><param name=\"\
+      max\">2.9670597283903604</param></command_interface><command_interface name=\"\
+      effort\"><param name=\"min\">-200</param><param name=\"max\"> 200</param></command_interface><state_interface\
+      \ name=\"position\"/><state_interface name=\"velocity\"/><state_interface name=\"\
+      effort\"/></joint><joint name=\"lbr_A2\"><command_interface name=\"position\"\
+      ><param name=\"min\">-2.0943951023931953</param><param name=\"max\">2.0943951023931953</param></command_interface><command_interface\
+      \ name=\"effort\"><param name=\"min\">-200</param><param name=\"max\"> 200</param></command_interface><state_interface\
+      \ name=\"position\"/><state_interface name=\"velocity\"/><state_interface name=\"\
+      effort\"/></joint><joint name=\"lbr_A3\"><command_interface name=\"position\"\
+      ><param name=\"min\">-2.9670597283903604</param><param name=\"max\">2.9670597283903604</param></command_interface><command_interface\
+      \ name=\"effort\"><param name=\"min\">-200</param><param name=\"max\"> 200</param></command_interface><state_interface\
+      \ name=\"position\"/><state_interface name=\"velocity\"/><state_interface name=\"\
+      effort\"/></joint><joint name=\"lbr_A4\"><command_interface name=\"position\"\
+      ><param name=\"min\">-2.0943951023931953</param><param name=\"max\">2.0943951023931953</param></command_interface><command_interface\
+      \ name=\"effort\"><param name=\"min\">-200</param><param name=\"max\"> 200</param></command_interface><state_interface\
+      \ name=\"position\"/><state_interface name=\"velocity\"/><state_interface name=\"\
+      effort\"/></joint><joint name=\"lbr_A5\"><command_interface name=\"position\"\
+      ><param name=\"min\">-2.9670597283903604</param><param name=\"max\">2.9670597283903604</param></command_interface><command_interface\
+      \ name=\"effort\"><param name=\"min\">-200</param><param name=\"max\"> 200</param></command_interface><state_interface\
+      \ name=\"position\"/><state_interface name=\"velocity\"/><state_interface name=\"\
+      effort\"/></joint><joint name=\"lbr_A6\"><command_interface name=\"position\"\
+      ><param name=\"min\">-2.0943951023931953</param><param name=\"max\">2.0943951023931953</param></command_interface><command_interface\
+      \ name=\"effort\"><param name=\"min\">-200</param><param name=\"max\"> 200</param></command_interface><state_interface\
+      \ name=\"position\"/><state_interface name=\"velocity\"/><state_interface name=\"\
+      effort\"/></joint><joint name=\"lbr_A7\"><command_interface name=\"position\"\
+      ><param name=\"min\">-3.0543261909900763</param><param name=\"max\">3.0543261909900763</param></command_interface><command_interface\
+      \ name=\"effort\"><param name=\"min\">-200</param><param name=\"max\"> 200</param></command_interface><state_interface\
+      \ name=\"position\"/><state_interface name=\"velocity\"/><state_interface name=\"\
+      effort\"/></joint></ros2_control><link name=\"lbr_link_0\"><inertial><origin\
+      \ rpy=\"0 0 0\" xyz=\"-0.012822 0.0 0.071507\"/><mass value=\"7.050378\"/><inertia\
+      \ ixx=\"0.031226\" ixy=\"0.0\" ixz=\"0.000871\" iyy=\"0.039697\" iyz=\"0.0\"\
+      \ izz=\"0.043102\"/></inertial><visual><origin rpy=\"0 0 0\" xyz=\"0 0 0\"/><geometry><mesh\
+      \ filename=\"package://lbr_description/meshes/iiwa14/visual/link_0.dae\"/></geometry></visual><collision><origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_0.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_A1\" type=\"revolute\"><origin\
+      \ rpy=\"0 0 0\" xyz=\"0.0 0.0 0.1475\"/><parent link=\"lbr_link_0\"/><child\
+      \ link=\"lbr_link_1\"/><axis xyz=\"0.0 0.0 1.0\"/><limit effort=\"200\" lower=\"\
+      -2.9670597283903604\" upper=\"2.9670597283903604\" velocity=\"1.4835298641951802\"\
+      /><dynamics damping=\"10.0\" friction=\"0.1\"/></joint><link name=\"lbr_link_1\"\
+      ><inertial><origin rpy=\"0 0 0\" xyz=\"0.0 -0.033795 0.132404\"/><mass value=\"\
+      5.289529\"/><inertia ixx=\"0.042462\" ixy=\"0.0\" ixz=\"0.0\" iyy=\"0.042838\"\
+      \ iyz=\"0.006341\" izz=\"0.01587\"/></inertial><visual><origin rpy=\"0 0 0\"\
+      \ xyz=\"0.0 0.0 -0.1475\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/visual/link_1.dae\"\
+      /></geometry></visual><collision><origin rpy=\"0 0 0\" xyz=\"0.0 0.0 -0.1475\"\
+      /><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_1.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_A2\" type=\"revolute\"><origin\
+      \ rpy=\"0 0 0\" xyz=\"0.0 -0.01 0.2125\"/><parent link=\"lbr_link_1\"/><child\
+      \ link=\"lbr_link_2\"/><axis xyz=\"0.0 1.0 0.0\"/><limit effort=\"200\" lower=\"\
+      -2.0943951023931953\" upper=\"2.0943951023931953\" velocity=\"1.4835298641951802\"\
+      /><dynamics damping=\"10.0\" friction=\"0.1\"/></joint><link name=\"lbr_link_2\"\
+      ><inertial><origin rpy=\"0 0 0\" xyz=\"0.000136 0.047548 0.076322\"/><mass value=\"\
+      5.688888\"/><inertia ixx=\"0.055182\" ixy=\"-3.3e-05\" ixz=\"5.6e-05\" iyy=\"\
+      0.053983\" iyz=\"0.010034\" izz=\"0.016523\"/></inertial><visual><origin rpy=\"\
+      0 0 0\" xyz=\"0.0 0.01 -0.36\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/visual/link_2.dae\"\
+      /></geometry></visual><collision><origin rpy=\"0 0 0\" xyz=\"0.0 0.01 -0.36\"\
+      /><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_2.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_A3\" type=\"revolute\"><origin\
+      \ rpy=\"0 0 0\" xyz=\"0.0 0.01 0.228\"/><parent link=\"lbr_link_2\"/><child\
+      \ link=\"lbr_link_3\"/><axis xyz=\"0.0 0.0 1.0\"/><limit effort=\"200\" lower=\"\
+      -2.9670597283903604\" upper=\"2.9670597283903604\" velocity=\"1.7453292519943295\"\
+      /><dynamics damping=\"10.0\" friction=\"0.1\"/></joint><link name=\"lbr_link_3\"\
+      ><inertial><origin rpy=\"0 0 0\" xyz=\"0.0 0.034913 0.123108\"/><mass value=\"\
+      3.461245\"/><inertia ixx=\"0.02172\" ixy=\"0.0\" ixz=\"0.0\" iyy=\"0.02073\"\
+      \ iyz=\"-0.003845\" izz=\"0.007701\"/></inertial><visual><origin rpy=\"0 0 0\"\
+      \ xyz=\"0.0 0.0 -0.588\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/visual/link_3.dae\"\
+      /></geometry></visual><collision><origin rpy=\"0 0 0\" xyz=\"0.0 0.0 -0.588\"\
+      /><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_3.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_A4\" type=\"revolute\"><origin\
+      \ rpy=\"0 0 0\" xyz=\"0.0 0.0105 0.192\"/><parent link=\"lbr_link_3\"/><child\
+      \ link=\"lbr_link_4\"/><axis xyz=\"0.0 -1.0 0.0\"/><limit effort=\"200\" lower=\"\
+      -2.0943951023931953\" upper=\"2.0943951023931953\" velocity=\"1.3089969389957472\"\
+      /><dynamics damping=\"10.0\" friction=\"0.1\"/></joint><link name=\"lbr_link_4\"\
+      ><inertial><origin rpy=\"0 0 0\" xyz=\"0.0 -0.039793 0.086944\"/><mass value=\"\
+      4.122995\"/><inertia ixx=\"0.03241\" ixy=\"0.0\" ixz=\"0.0\" iyy=\"0.030758\"\
+      \ iyz=\"-0.006022\" izz=\"0.009883\"/></inertial><visual><origin rpy=\"0 0 0\"\
+      \ xyz=\"0.0 -0.0105 -0.78\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/visual/link_4.dae\"\
+      /></geometry></visual><collision><origin rpy=\"0 0 0\" xyz=\"0.0 -0.0105 -0.78\"\
+      /><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_4.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_A5\" type=\"revolute\"><origin\
+      \ rpy=\"0 0 0\" xyz=\"0.0 -0.0105 0.2075\"/><parent link=\"lbr_link_4\"/><child\
+      \ link=\"lbr_link_5\"/><axis xyz=\"0.0 0.0 1.0\"/><limit effort=\"200\" lower=\"\
+      -2.9670597283903604\" upper=\"2.9670597283903604\" velocity=\"2.2689280275926285\"\
+      /><dynamics damping=\"10.0\" friction=\"0.1\"/></joint><link name=\"lbr_link_5\"\
+      ><inertial><origin rpy=\"0 0 0\" xyz=\"0.0 -0.029824 0.076267\"/><mass value=\"\
+      1.563756\"/><inertia ixx=\"0.008677\" ixy=\"0.0\" ixz=\"0.0\" iyy=\"0.007297\"\
+      \ iyz=\"0.002869\" izz=\"0.003935\"/></inertial><visual><origin rpy=\"0 0 0\"\
+      \ xyz=\"0.0 0.0 -0.9875\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/visual/link_5.dae\"\
+      /></geometry></visual><collision><origin rpy=\"0 0 0\" xyz=\"0.0 0.0 -0.9875\"\
+      /><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_5.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_A6\" type=\"revolute\"><origin\
+      \ rpy=\"0 0 0\" xyz=\"0.0 -0.0707 0.1925\"/><parent link=\"lbr_link_5\"/><child\
+      \ link=\"lbr_link_6\"/><axis xyz=\"0.0 1.0 0.0\"/><limit effort=\"200\" lower=\"\
+      -2.0943951023931953\" upper=\"2.0943951023931953\" velocity=\"2.356194490192345\"\
+      /><dynamics damping=\"10.0\" friction=\"0.1\"/></joint><link name=\"lbr_link_6\"\
+      ><inertial><origin rpy=\"0 0 0\" xyz=\"0.0 0.07102 0.00495\"/><mass value=\"\
+      2.457878\"/><inertia ixx=\"0.007227\" ixy=\"0.0\" ixz=\"0.0\" iyy=\"0.006958\"\
+      \ iyz=\"0.000318\" izz=\"0.004734\"/></inertial><visual><origin rpy=\"0 0 0\"\
+      \ xyz=\"0.0 0.0707 -1.18\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/visual/link_6.dae\"\
+      /></geometry></visual><collision><origin rpy=\"0 0 0\" xyz=\"0.0 0.0707 -1.18\"\
+      /><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_6.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_A7\" type=\"revolute\"><origin\
+      \ rpy=\"0 0 0\" xyz=\"0.0 0.0707 0.091\"/><parent link=\"lbr_link_6\"/><child\
+      \ link=\"lbr_link_7\"/><axis xyz=\"0.0 0.0 1.0\"/><limit effort=\"200\" lower=\"\
+      -3.0543261909900763\" upper=\"3.0543261909900763\" velocity=\"2.356194490192345\"\
+      /><dynamics damping=\"10.0\" friction=\"0.1\"/></joint><link name=\"lbr_link_7\"\
+      ><inertial><origin rpy=\"0 0 0\" xyz=\"3.0000e-06 -2.0000e-06 1.3782e-02\"/><mass\
+      \ value=\"0.265331\"/><inertia ixx=\"0.000175\" ixy=\"0.0\" ixz=\"0.0\" iyy=\"\
+      0.000175\" iyz=\"0.0\" izz=\"0.000306\"/></inertial><visual><origin rpy=\"0\
+      \ 0 0\" xyz=\"0.0 0.0 -1.271\"/><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/visual/link_7.dae\"\
+      /></geometry></visual><collision><origin rpy=\"0 0 0\" xyz=\"0.0 0.0 -1.271\"\
+      /><geometry><mesh filename=\"package://lbr_description/meshes/iiwa14/collision/link_7.stl\"\
+      /></geometry></collision></link><joint name=\"lbr_joint_ee\" type=\"fixed\"\
+      ><parent link=\"lbr_link_7\"/><child link=\"lbr_link_ee\"/><origin rpy=\"0 0\
+      \ 0\" xyz=\"0 0 0.035\"/></joint><link name=\"lbr_link_ee\">\n        </link></robot>"
+    robot_description_kinematics.arm.kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+    robot_description_kinematics.arm.kinematics_solver_search_resolution: 0.005
+    robot_description_kinematics.arm.kinematics_solver_timeout: 0.005
+    robot_description_planning.default_acceleration_scaling_factor: 0.1
+    robot_description_planning.default_velocity_scaling_factor: 0.1
+    robot_description_planning.joint_limits.lbr_A1.has_acceleration_limits: true
+    robot_description_planning.joint_limits.lbr_A1.has_velocity_limits: true
+    robot_description_planning.joint_limits.lbr_A1.max_acceleration: 10.0
+    robot_description_planning.joint_limits.lbr_A1.max_velocity: 1.4835298641951802
+    robot_description_planning.joint_limits.lbr_A2.has_acceleration_limits: true
+    robot_description_planning.joint_limits.lbr_A2.has_velocity_limits: true
+    robot_description_planning.joint_limits.lbr_A2.max_acceleration: 10.0
+    robot_description_planning.joint_limits.lbr_A2.max_velocity: 1.4835298641951802
+    robot_description_planning.joint_limits.lbr_A3.has_acceleration_limits: true
+    robot_description_planning.joint_limits.lbr_A3.has_velocity_limits: true
+    robot_description_planning.joint_limits.lbr_A3.max_acceleration: 10.0
+    robot_description_planning.joint_limits.lbr_A3.max_velocity: 1.7453292519943295
+    robot_description_planning.joint_limits.lbr_A4.has_acceleration_limits: true
+    robot_description_planning.joint_limits.lbr_A4.has_velocity_limits: true
+    robot_description_planning.joint_limits.lbr_A4.max_acceleration: 10.0
+    robot_description_planning.joint_limits.lbr_A4.max_velocity: 1.3089969389957472
+    robot_description_planning.joint_limits.lbr_A5.has_acceleration_limits: true
+    robot_description_planning.joint_limits.lbr_A5.has_velocity_limits: true
+    robot_description_planning.joint_limits.lbr_A5.max_acceleration: 10.0
+    robot_description_planning.joint_limits.lbr_A5.max_velocity: 2.2689280275926285
+    robot_description_planning.joint_limits.lbr_A6.has_acceleration_limits: true
+    robot_description_planning.joint_limits.lbr_A6.has_velocity_limits: true
+    robot_description_planning.joint_limits.lbr_A6.max_acceleration: 10.0
+    robot_description_planning.joint_limits.lbr_A6.max_velocity: 2.356194490192345
+    robot_description_planning.joint_limits.lbr_A7.has_acceleration_limits: true
+    robot_description_planning.joint_limits.lbr_A7.has_velocity_limits: true
+    robot_description_planning.joint_limits.lbr_A7.max_acceleration: 10.0
+    robot_description_planning.joint_limits.lbr_A7.max_velocity: 2.356194490192345
+    robot_description_semantic: "<?xml version=\"1.0\" ?><!-- ===================================================================================\
+      \ --><!-- |    This document was autogenerated by xacro from /home/srl/lbr-stack/install/iiwa14_moveit_config/share/iiwa14_moveit_config/config/iiwa14.srdf\
+      \ | --><!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED              \
+      \                   | --><!-- ===================================================================================\
+      \ --><!--This does not replace URDF, and is not an extension of URDF.\n    This\
+      \ is a format for representing semantic information about the robot structure.\n\
+      \    A URDF file must exist for this robot as well, where the joints and the\
+      \ links that are referenced are defined\n--><robot name=\"iiwa14\"><!--GROUPS:\
+      \ Representation of a set of joints and links. This can be useful for specifying\
+      \ DOF to plan for, defining arms, end effectors, etc--><!--LINKS: When a link\
+      \ is specified, the parent joint of that link (if it exists) is automatically\
+      \ included--><!--JOINTS: When a joint is specified, the child link of that joint\
+      \ (which will always exist) is automatically included--><!--CHAINS: When a chain\
+      \ is specified, all the links along the chain (including endpoints) are included\
+      \ in the group. Additionally, all the joints that are parents to included links\
+      \ are also included. This means that joints along the chain and the parent joint\
+      \ of the base link are included in the group--><!--SUBGROUPS: Groups can also\
+      \ be formed by referencing to already defined group names--><group name=\"arm\"\
+      ><chain base_link=\"lbr_link_0\" tip_link=\"lbr_link_ee\"/></group><!--GROUP\
+      \ STATES: Purpose: Define a named state for a particular group, in terms of\
+      \ joint values. This is useful to define states like 'folded arms'--><group_state\
+      \ group=\"arm\" name=\"zero\"><joint name=\"lbr_A1\" value=\"0\"/><joint name=\"\
+      lbr_A2\" value=\"0\"/><joint name=\"lbr_A3\" value=\"0\"/><joint name=\"lbr_A4\"\
+      \ value=\"0\"/><joint name=\"lbr_A5\" value=\"0\"/><joint name=\"lbr_A6\" value=\"\
+      0\"/><joint name=\"lbr_A7\" value=\"0\"/></group_state><group_state group=\"\
+      arm\" name=\"transport\"><joint name=\"lbr_A1\" value=\"0\"/><joint name=\"\
+      lbr_A2\" value=\"0.4363\"/><joint name=\"lbr_A3\" value=\"0\"/><joint name=\"\
+      lbr_A4\" value=\"1.5707\"/><joint name=\"lbr_A5\" value=\"0\"/><joint name=\"\
+      lbr_A6\" value=\"0\"/><joint name=\"lbr_A7\" value=\"0\"/></group_state><!--DISABLE\
+      \ COLLISIONS: By default it is assumed that any link of the robot could potentially\
+      \ come into collision with any other link in the robot. This tag disables collision\
+      \ checking between a specified pair of links. --><disable_collisions link1=\"\
+      lbr_link_0\" link2=\"lbr_link_1\" reason=\"Adjacent\"/><disable_collisions link1=\"\
+      lbr_link_0\" link2=\"lbr_link_2\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_0\" link2=\"lbr_link_3\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_0\" link2=\"lbr_link_4\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_1\" link2=\"lbr_link_2\" reason=\"Adjacent\"/><disable_collisions link1=\"\
+      lbr_link_1\" link2=\"lbr_link_3\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_1\" link2=\"lbr_link_4\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_1\" link2=\"lbr_link_5\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_1\" link2=\"lbr_link_6\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_1\" link2=\"lbr_link_7\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_2\" link2=\"lbr_link_3\" reason=\"Adjacent\"/><disable_collisions link1=\"\
+      lbr_link_2\" link2=\"lbr_link_4\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_2\" link2=\"lbr_link_5\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_2\" link2=\"lbr_link_6\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_2\" link2=\"lbr_link_7\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_3\" link2=\"lbr_link_4\" reason=\"Adjacent\"/><disable_collisions link1=\"\
+      lbr_link_3\" link2=\"lbr_link_5\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_3\" link2=\"lbr_link_6\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_3\" link2=\"lbr_link_7\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_4\" link2=\"lbr_link_5\" reason=\"Adjacent\"/><disable_collisions link1=\"\
+      lbr_link_4\" link2=\"lbr_link_6\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_4\" link2=\"lbr_link_7\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_5\" link2=\"lbr_link_6\" reason=\"Adjacent\"/><disable_collisions link1=\"\
+      lbr_link_5\" link2=\"lbr_link_7\" reason=\"Never\"/><disable_collisions link1=\"\
+      lbr_link_6\" link2=\"lbr_link_7\" reason=\"Adjacent\"/></robot>"

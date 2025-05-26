@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target position_control[0m
+[ 12%] Built target command_publisher3
+[ 25%] Built target command_publisher2
+[ 37%] Built target command_listener
+[ 50%] Built target end_effector_position_node
+[ 62%] Built target reset_position
+[ 75%] Built target robot_info_controller
+[ 81%] [32mBuilding CXX object CMakeFiles/position_control.dir/src/position_control.cpp.o[0m
+[ 93%] Built target robot_info
+[100%] [32m[1mLinking CXX executable position_control[0m

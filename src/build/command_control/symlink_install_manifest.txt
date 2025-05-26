@@ -1,0 +1,16 @@
+/home/srl/lbr-stack/src/install/command_control/lib/command_control/command_publisher2
+/home/srl/lbr-stack/src/install/command_control/share/ament_index/resource_index/package_run_dependencies/command_control
+/home/srl/lbr-stack/src/install/command_control/share/ament_index/resource_index/parent_prefix_path/command_control
+/home/srl/lbr-stack/src/install/command_control/share/command_control/environment/ament_prefix_path.sh
+/home/srl/lbr-stack/src/install/command_control/share/command_control/environment/ament_prefix_path.dsv
+/home/srl/lbr-stack/src/install/command_control/share/command_control/environment/path.sh
+/home/srl/lbr-stack/src/install/command_control/share/command_control/environment/path.dsv
+/home/srl/lbr-stack/src/install/command_control/share/command_control/local_setup.bash
+/home/srl/lbr-stack/src/install/command_control/share/command_control/local_setup.sh
+/home/srl/lbr-stack/src/install/command_control/share/command_control/local_setup.zsh
+/home/srl/lbr-stack/src/install/command_control/share/command_control/local_setup.dsv
+/home/srl/lbr-stack/src/install/command_control/share/command_control/package.dsv
+/home/srl/lbr-stack/src/install/command_control/share/ament_index/resource_index/packages/command_control
+/home/srl/lbr-stack/src/install/command_control/share/command_control/cmake/command_controlConfig.cmake
+/home/srl/lbr-stack/src/install/command_control/share/command_control/cmake/command_controlConfig-version.cmake
+/home/srl/lbr-stack/src/install/command_control/share/command_control/package.xml

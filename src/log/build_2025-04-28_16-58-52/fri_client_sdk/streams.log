@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/srl/lbr-stack/src/build/fri_client_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/fri -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/src/install/fri_client_sdk
+[0.196s] -- The C compiler identification is GNU 11.4.0
+[0.196s] -- The CXX compiler identification is GNU 11.4.0
+[0.196s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.286s] [0mFound nanopb of version: 0.2.8[0m
+[0.286s] [0mFound FRIClient of version: 2.5[0m
+[0.286s] -- Configuring FRIClient version 2.5
+[0.288s] -- Configuring done
+[0.291s] -- Generating done
+[0.292s] -- Build files have been written to: /home/srl/lbr-stack/src/build/fri_client_sdk
+[0.295s] Invoked command in '/home/srl/lbr-stack/src/build/fri_client_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/fri -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/src/install/fri_client_sdk
+[0.297s] Invoking command in '/home/srl/lbr-stack/src/build/fri_client_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/src/build/fri_client_sdk -- -j20 -l20
+[0.342s] [  7%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_lbr/friLBRClient.cpp.o[0m
+[0.342s] [ 14%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_lbr/friLBRState.cpp.o[0m
+[0.343s] [ 21%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_lbr/friLBRCommand.cpp.o[0m
+[0.346s] [ 42%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf/pb_frimessages_callbacks.c.o[0m
+[0.346s] [ 42%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/base/friClientApplication.cpp.o[0m
+[0.346s] [ 50%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/nanopb-0.2.8/pb_encode.c.o[0m
+[0.346s] [ 50%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/base/friDataHelper.cpp.o[0m
+[0.346s] [ 71%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_trafo/friTransformationClient.cpp.o[0m
+[0.347s] [ 71%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf/friMonitoringMessageDecoder.cpp.o[0m
+[0.347s] [ 71%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/nanopb-0.2.8/pb_decode.c.o[0m
+[0.347s] [ 78%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/connection/friUdpConnection.cpp.o[0m
+[0.347s] [ 85%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf/friCommandMessageEncoder.cpp.o[0m
+[0.348s] [ 92%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf_gen/FRIMessages.pb.c.o[0m
+[0.682s] [100%] [32m[1mLinking CXX shared library libFRIClient.so[0m
+[0.754s] [100%] Built target FRIClient
+[0.763s] Invoked command in '/home/srl/lbr-stack/src/build/fri_client_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/src/build/fri_client_sdk -- -j20 -l20
+[0.774s] Invoking command in '/home/srl/lbr-stack/src/build/fri_client_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/src/build/fri_client_sdk
+[0.782s] -- Install configuration: "Release"
+[0.782s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/lib/libFRIClient.so
+[0.782s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include
+[0.782s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friClientApplication.h
+[0.782s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friClientVersion.h
+[0.782s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friLBRCommand.h
+[0.782s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friClientIf.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friUdpConnection.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friTransformationClient.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friException.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friConnectionIf.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friLBRClient.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friDataHelper.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/include/friLBRState.h
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/lib/cmake/FRIClient/FRIClientConfig.cmake
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/lib/cmake/FRIClient/FRIClientConfig-release.cmake
+[0.783s] -- Installing: /home/srl/lbr-stack/src/install/fri_client_sdk/lib/cmake/FRIClient/FRIClientConfigVersion.cmake
+[0.785s] Invoked command in '/home/srl/lbr-stack/src/build/fri_client_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/ros2_ws/install/simple_gui:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/src/build/fri_client_sdk

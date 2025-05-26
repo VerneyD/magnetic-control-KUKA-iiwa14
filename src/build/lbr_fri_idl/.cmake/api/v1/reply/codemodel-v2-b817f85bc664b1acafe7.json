@@ -1,0 +1,290 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8b3a67db93f31abea2b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "lbr_fri_idl__py",
+					"jsonFile" : "directory-lbr_fri_idl__py-Release-cd10a217673b03c3da93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/srl/lbr-stack/src/build/lbr_fri_idl/lbr_fri_idl__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lbr_fri_idl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lbr_fri_idl_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lbr_fri_idl_egg-Release-6276406624102afd5ec0.json",
+					"name" : "ament_cmake_python_build_lbr_fri_idl_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_lbr_fri_idl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_lbr_fri_idl-Release-d5ad9974ba336de9c2b0.json",
+					"name" : "ament_cmake_python_symlink_lbr_fri_idl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-7f5dd951d1865a308266.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-42409fb1a859fad5ec00.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl-Release-855568d1fc5a0c2b33eb.json",
+					"name" : "lbr_fri_idl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__cpp-Release-4bc7a1721547f38f9883.json",
+					"name" : "lbr_fri_idl__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lbr_fri_idl__py::@68c9a0fd057a815a9442",
+					"jsonFile" : "target-lbr_fri_idl__py-Release-7015a154a7d072caddc6.json",
+					"name" : "lbr_fri_idl__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_generator_c-Release-2ccc3f165d09352f3b4d.json",
+					"name" : "lbr_fri_idl__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_generator_py-Release-91457cda7a54d4437b55.json",
+					"name" : "lbr_fri_idl__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_c-Release-b6ecebbe194b78acf72a.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_c__pyext-Release-826cdc153e6313e0457e.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_cpp-Release-ae4bd55db419d830e01e.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_fastrtps_c-Release-382a01a7c5c7c1b6806d.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_fastrtps_c__pyext-Release-4cad0190edc472229bae.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_fastrtps_cpp-Release-51318d41c688aae608ce.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_introspection_c-Release-9fb2775debe2f368ec21.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_introspection_c__pyext-Release-0c01f1e68985a4c36042.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl__rosidl_typesupport_introspection_cpp-Release-f531a256383a386ef5d3.json",
+					"name" : "lbr_fri_idl__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl_test_command_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl_test_command_interfaces-Release-6e58725ba9a50ebd8ddd.json",
+					"name" : "lbr_fri_idl_test_command_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_fri_idl_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_fri_idl_uninstall-Release-c185ce82bba4597d3876.json",
+					"name" : "lbr_fri_idl_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-41b33b545a5477ad7727.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/srl/lbr-stack/src/build/lbr_fri_idl",
+		"source" : "/home/srl/lbr-stack/src/lbr_fri_idl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

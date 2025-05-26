@@ -1,0 +1,1 @@
+/home/srl/lbr-stack/src/lbr_fri_idl/msg/LBRCommand.msg

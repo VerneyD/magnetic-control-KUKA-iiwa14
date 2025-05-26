@@ -1,0 +1,17 @@
+[0.534s] Invoking command in '/home/srl/lbr-stack/build/lbr_moveit': PYTHONPATH=/home/srl/lbr-stack/build/lbr_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srl/lbr-stack/build/lbr_moveit/build --no-deps symlink_data
+[0.721s] running develop
+[0.836s] running egg_info
+[0.837s] writing lbr_moveit.egg-info/PKG-INFO
+[0.837s] writing dependency_links to lbr_moveit.egg-info/dependency_links.txt
+[0.838s] writing entry points to lbr_moveit.egg-info/entry_points.txt
+[0.838s] writing requirements to lbr_moveit.egg-info/requires.txt
+[0.839s] writing top-level names to lbr_moveit.egg-info/top_level.txt
+[0.839s] reading manifest file 'lbr_moveit.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'lbr_moveit.egg-info/SOURCES.txt'
+[0.841s] running build_ext
+[0.842s] Creating /home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages/lbr-moveit.egg-link (link to .)
+[0.842s] Installing forward_keyboard script to /home/srl/lbr-stack/install/lbr_moveit/lib/lbr_moveit
+[0.842s] 
+[0.843s] Installed /home/srl/lbr-stack/build/lbr_moveit
+[0.843s] running symlink_data
+[1.105s] Invoked command in '/home/srl/lbr-stack/build/lbr_moveit' returned '0': PYTHONPATH=/home/srl/lbr-stack/build/lbr_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srl/lbr-stack/build/lbr_moveit/build --no-deps symlink_data

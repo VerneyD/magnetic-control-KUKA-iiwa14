@@ -1,0 +1,15 @@
+/home/srl/lbr-stack/src/my_package/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/home/srl/lbr-stack/src/my_package/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/environment/path.sh
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/environment/path.dsv
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/local_setup.bash
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/local_setup.sh
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/local_setup.zsh
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/local_setup.dsv
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/package.dsv
+/home/srl/lbr-stack/src/my_package/install/my_package/share/ament_index/resource_index/packages/my_package
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/home/srl/lbr-stack/src/my_package/install/my_package/share/my_package/package.xml

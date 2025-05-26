@@ -1,0 +1,2 @@
+Invoking command in '/home/srl/lbr-stack/build/my_package': /usr/bin/cmake /home/srl/lbr-stack/src/my_package -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/my_package
+Invoked command in '/home/srl/lbr-stack/build/my_package' returned '1': /usr/bin/cmake /home/srl/lbr-stack/src/my_package -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/my_package

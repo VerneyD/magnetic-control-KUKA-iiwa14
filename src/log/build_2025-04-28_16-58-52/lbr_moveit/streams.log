@@ -1,0 +1,28 @@
+[0.535s] Invoking command in '/home/srl/lbr-stack/src/build/lbr_moveit': PYTHONPATH=/home/srl/lbr-stack/src/build/lbr_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srl/lbr-stack/src/install/lbr_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srl/lbr-stack/src/build/lbr_moveit/build --no-deps symlink_data
+[0.812s] running develop
+[0.928s] running egg_info
+[0.929s] creating lbr_moveit.egg-info
+[0.929s] writing lbr_moveit.egg-info/PKG-INFO
+[0.929s] writing dependency_links to lbr_moveit.egg-info/dependency_links.txt
+[0.929s] writing entry points to lbr_moveit.egg-info/entry_points.txt
+[0.929s] writing requirements to lbr_moveit.egg-info/requires.txt
+[0.929s] writing top-level names to lbr_moveit.egg-info/top_level.txt
+[0.929s] writing manifest file 'lbr_moveit.egg-info/SOURCES.txt'
+[0.930s] reading manifest file 'lbr_moveit.egg-info/SOURCES.txt'
+[0.931s] writing manifest file 'lbr_moveit.egg-info/SOURCES.txt'
+[0.932s] running build_ext
+[0.932s] Creating /home/srl/lbr-stack/src/install/lbr_moveit/lib/python3.10/site-packages/lbr-moveit.egg-link (link to .)
+[0.933s] Installing forward_keyboard script to /home/srl/lbr-stack/src/install/lbr_moveit/lib/lbr_moveit
+[0.933s] 
+[0.933s] Installed /home/srl/lbr-stack/src/build/lbr_moveit
+[0.933s] running symlink_data
+[0.934s] creating /home/srl/lbr-stack/src/install/lbr_moveit/share/ament_index
+[0.934s] creating /home/srl/lbr-stack/src/install/lbr_moveit/share/ament_index/resource_index
+[0.934s] creating /home/srl/lbr-stack/src/install/lbr_moveit/share/ament_index/resource_index/packages
+[0.934s] symbolically linking /home/srl/lbr-stack/src/build/lbr_moveit/resource/lbr_moveit -> /home/srl/lbr-stack/src/install/lbr_moveit/share/ament_index/resource_index/packages
+[0.934s] symbolically linking /home/srl/lbr-stack/src/build/lbr_moveit/package.xml -> /home/srl/lbr-stack/src/install/lbr_moveit/share/lbr_moveit
+[0.934s] creating /home/srl/lbr-stack/src/install/lbr_moveit/share/lbr_moveit/config
+[0.934s] symbolically linking /home/srl/lbr-stack/src/build/lbr_moveit/config/forward_keyboard.yaml -> /home/srl/lbr-stack/src/install/lbr_moveit/share/lbr_moveit/config
+[0.935s] creating /home/srl/lbr-stack/src/install/lbr_moveit/share/lbr_moveit/launch
+[0.935s] symbolically linking /home/srl/lbr-stack/src/build/lbr_moveit/launch/keyboard_driver.launch.py -> /home/srl/lbr-stack/src/install/lbr_moveit/share/lbr_moveit/launch
+[0.959s] Invoked command in '/home/srl/lbr-stack/src/build/lbr_moveit' returned '0': PYTHONPATH=/home/srl/lbr-stack/src/build/lbr_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srl/lbr-stack/src/install/lbr_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srl/lbr-stack/src/build/lbr_moveit/build --no-deps symlink_data

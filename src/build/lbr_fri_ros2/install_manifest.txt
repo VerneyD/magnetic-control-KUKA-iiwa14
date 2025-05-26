@@ -1,0 +1,3 @@
+/home/srl/lbr-stack/src/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so
+/home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport.cmake
+/home/srl/lbr-stack/src/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport-release.cmake

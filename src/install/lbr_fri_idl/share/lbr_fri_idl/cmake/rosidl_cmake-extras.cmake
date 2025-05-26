@@ -1,0 +1,1 @@
+/home/srl/lbr-stack/src/build/lbr_fri_idl/rosidl_cmake/rosidl_cmake-extras.cmake

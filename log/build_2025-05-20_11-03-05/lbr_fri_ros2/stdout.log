@@ -1,0 +1,4 @@
+[ 20%] Built target gtest
+[ 20%] Built target gtest_main
+[ 90%] Built target lbr_fri_ros2
+[100%] Built target test_command_interfaces
