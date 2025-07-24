@@ -1,0 +1,85 @@
+<?xml version="1.6" ?>
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- Gravité -->
+    <gravity>0 0 -9.81</gravity>
+
+
+    <!-- Lumière principale -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 5 0 -0.5 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+
+    <!-- Sol transparent -->
+    <model name="transparent_ground">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>1 1 1 0.0</ambient>
+            <diffuse>1 1 1 0.0</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 0</emissive>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <include>
+      <uri>file:///home/srl/.gazebo/models/iiwa14V/</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <!-- <include>
+      <uri>file:///home/srl/.gazebo/models/box/</uri>
+      <pose>-0 0.7 0.175 0 0 0</pose>
+      <static>true</static>
+    </include> -->
+
+    <include>
+      <uri>file:///home/srl/.gazebo/models/magnetic_capsule/</uri>
+      <pose>0 0.58 0.185 0  0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://maze</uri>
+      <pose>-0.1 0.56 0.175 1.5708 0 1.5708</pose>
+      <static>true</static>
+    </include>
+
+
+
+  </world>
+</sdf>

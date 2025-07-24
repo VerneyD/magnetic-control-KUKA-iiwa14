@@ -79,7 +79,7 @@ class PositionControl(Node):
 
         norm = math.sqrt(dx ** 2 + dy ** 2 + dz ** 2)
 
-        if norm < 0.003:  # seuil d’arrêt global
+        if norm < 0.0005:  # seuil d’arrêt global
             self.target_reached = True
             self.movement_finished = True
             stop_msg = TwistStamped()
@@ -119,7 +119,7 @@ def create_gui(control_node):
         frame.pack(padx=10, pady=5)
         label = ttk.Label(frame, text=f"{axis.upper()} in m:")
         label.pack(side=tk.LEFT, padx=100, pady=5)
-        slider = tk.Scale(frame, from_=0.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.01, length=600, showvalue=True)
+        slider = tk.Scale(frame, from_=-1.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.001, length=800, showvalue=True)
         slider.set(0.0)  # Temp value, will be updated when first position received
         slider.pack(side=tk.LEFT)
         sliders[axis] = slider
@@ -128,7 +128,7 @@ def create_gui(control_node):
     speed_frame.pack(padx=10, pady=5)
     speed_label = ttk.Label(speed_frame, text="Speed in cm/s:")
     speed_label.pack(side=tk.LEFT, padx=75, pady=5)
-    speed_slider = tk.Scale(speed_frame, from_=0.1, to=3.33, orient=tk.HORIZONTAL, resolution=0.01, length=600, showvalue=True)
+    speed_slider = tk.Scale(speed_frame, from_=0.1, to=3.33, orient=tk.HORIZONTAL, resolution=0.01, length=800, showvalue=True)
     speed_slider.set(0.5)
     speed_slider.pack(side=tk.LEFT)
 
@@ -186,7 +186,7 @@ def create_gui(control_node):
     local_x_frame.pack(padx=10, pady=5)
     local_x_label = ttk.Label(local_x_frame, text=f"Local reset x coordinate:")
     local_x_label.pack(side=tk.LEFT, padx=35, pady=5)
-    slider_x_local = tk.Scale(local_x_frame, from_=0.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.01, length=600, showvalue=True)
+    slider_x_local = tk.Scale(local_x_frame, from_=-1.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.001, length=800, showvalue=True)
     slider_x_local.set(0.0)  # Temp value, will be updated when first position received
     slider_x_local.pack(side=tk.LEFT)
 
@@ -194,7 +194,7 @@ def create_gui(control_node):
     local_y_frame.pack(padx=10, pady=5)
     local_y_label = ttk.Label(local_y_frame, text=f"Local reset y coordinate:")
     local_y_label.pack(side=tk.LEFT, padx=35, pady=5)
-    slider_y_local = tk.Scale(local_y_frame, from_=0.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.01, length=600, showvalue=True)
+    slider_y_local = tk.Scale(local_y_frame, from_=-1.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.001, length=800, showvalue=True)
     slider_y_local.set(0.0)  # Temp value, will be updated when first position received
     slider_y_local.pack(side=tk.LEFT)
     
@@ -202,7 +202,7 @@ def create_gui(control_node):
     local_z_frame.pack(padx=10, pady=5)
     local_z_label = ttk.Label(local_z_frame, text=f"Local reset z coordinate:")
     local_z_label.pack(side=tk.LEFT, padx=35, pady=5)
-    slider_z_local = tk.Scale(local_z_frame, from_=0.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.01, length=600, showvalue=True)
+    slider_z_local = tk.Scale(local_z_frame, from_=0.0, to=1.0, orient=tk.HORIZONTAL, resolution=0.001, length=800, showvalue=True)
     slider_z_local.set(0.0)  # Temp value, will be updated when first position received
     slider_z_local.pack(side=tk.LEFT)
 

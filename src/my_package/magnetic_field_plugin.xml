@@ -1,0 +1,7 @@
+<library path="libmagnetic_field_plugin">
+  <class name="my_package::MagneticFieldPlugin"
+         type="my_package::MagneticFieldPlugin"
+         base_class_type="ignition::gazebo::System">
+    <description>Simulates a magnetic field</description>
+  </class>
+</library>

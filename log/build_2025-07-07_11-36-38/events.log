@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000113] (-) JobUnselected: {'identifier': 'fri_client_sdk'}
+[0.000144] (-) JobUnselected: {'identifier': 'gz_ros2_control'}
+[0.000305] (-) JobUnselected: {'identifier': 'gz_ros2_control_demos'}
+[0.000328] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000352] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.000367] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.000393] (-) JobUnselected: {'identifier': 'iiwa14_moveit_config'}
+[0.000409] (-) JobUnselected: {'identifier': 'iiwa7_moveit_config'}
+[0.000426] (-) JobUnselected: {'identifier': 'lbr_bringup'}
+[0.000440] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_cpp'}
+[0.000457] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_py'}
+[0.000573] (-) JobUnselected: {'identifier': 'lbr_demos_cpp'}
+[0.000602] (-) JobUnselected: {'identifier': 'lbr_demos_py'}
+[0.000621] (-) JobUnselected: {'identifier': 'lbr_description'}
+[0.000636] (-) JobUnselected: {'identifier': 'lbr_fri_idl'}
+[0.000650] (-) JobUnselected: {'identifier': 'lbr_fri_ros2'}
+[0.000667] (-) JobUnselected: {'identifier': 'lbr_fri_ros2_stack'}
+[0.000818] (-) JobUnselected: {'identifier': 'lbr_gazebo_models'}
+[0.000875] (-) JobUnselected: {'identifier': 'lbr_moveit'}
+[0.000901] (-) JobUnselected: {'identifier': 'lbr_moveit_cpp'}
+[0.000947] (-) JobUnselected: {'identifier': 'lbr_ros2_control'}
+[0.000969] (-) JobUnselected: {'identifier': 'med14_moveit_config'}
+[0.000985] (-) JobUnselected: {'identifier': 'med7_moveit_config'}
+[0.001001] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001017] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.001033] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.001050] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.001104] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.001123] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.001142] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.001158] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.001175] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.001206] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.001231] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.001279] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.001296] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.001312] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.001328] (test_package) JobQueued: {'identifier': 'test_package', 'dependencies': OrderedDict()}
+[0.001345] (test_package) JobStarted: {'identifier': 'test_package'}
+[0.007294] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'cmake'}
+[0.007902] (test_package) Command: {'cmd': ['/usr/bin/cmake', '/home/srl/lbr-stack/src/test_package', '-DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/test_package'], 'cwd': '/home/srl/lbr-stack/build/test_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/srl/lbr-stack/install/lbr_description/share'), ('USER', 'srl'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srl'), ('OLDPWD', '/home/srl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '1806'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/srl/lbr-stack/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/srl/lbr-stack/src/lbr_gazebo_models/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/srl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/srl-ThinkPad-P15v-Gen-3:@/tmp/.ICE-unix/1773,unix/srl-ThinkPad-P15v-Gen-3:/tmp/.ICE-unix/1773'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ddf86b89_cd5e_40a5_95a8_c11c85f005b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/srl/lbr-stack/install/test_package/lib'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/srl/lbr-stack/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srl/lbr-stack/build/test_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_moveit:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:/home/srl/lbr-stack/build/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble')]), 'shell': False}
+[0.099474] (-) TimerEvent: {}
+[0.106749] (test_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.184755] (test_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.193329] (test_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199565] (-) TimerEvent: {}
+[0.260602] (test_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.267599] (test_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.267760] (test_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.268244] (test_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.270766] (test_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299778] (-) TimerEvent: {}
+[0.339732] (test_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.345613] (test_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.345956] (test_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.346793] (test_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.353424] (test_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399987] (-) TimerEvent: {}
+[0.489031] (test_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500101] (-) TimerEvent: {}
+[0.583978] (test_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600280] (-) TimerEvent: {}
+[0.636983] (test_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.643645] (test_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.653587] (test_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.667513] (test_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.684220] (test_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700483] (-) TimerEvent: {}
+[0.732087] (test_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.736448] (test_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800714] (-) TimerEvent: {}
+[0.836246] (test_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.858531] (test_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.894286] (test_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900882] (-) TimerEvent: {}
+[0.905193] (test_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.970596] (test_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.970803] (test_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001016] (-) TimerEvent: {}
+[1.033264] (test_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.034415] (test_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.081966] (test_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.101196] (-) TimerEvent: {}
+[1.108798] (test_package) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.17.0\n'}
+[1.115875] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[1.118558] (test_package) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[1.118801] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[1.123673] (test_package) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.137394] (test_package) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.191162] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.191869] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.197986] (test_package) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.198301] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[1.201391] (-) TimerEvent: {}
+[1.203164] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.203415] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[1.203946] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[1.207401] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[1.207483] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[1.207855] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[1.211212] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[1.211358] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[1.215184] (test_package) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.215354] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[1.239741] (test_package) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.252082] (test_package) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.256412] (test_package) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.273494] (test_package) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.301517] (-) TimerEvent: {}
+[1.332116] (test_package) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.341671] (test_package) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.367448] (test_package) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.401749] (-) TimerEvent: {}
+[1.426927] (test_package) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.427695] (test_package) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.428493] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[1.428732] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[1.434680] (test_package) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[1.435215] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[1.441147] (test_package) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.441529] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[1.457192] (test_package) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.457816] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.465487] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[1.469126] (test_package) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[1.469391] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[1.469833] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[1.472820] (test_package) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[1.473028] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[1.473697] (test_package) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.478103] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.478828] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.479515] (test_package) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.480782] (test_package) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.481600] (test_package) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.489346] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[1.496159] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[1.496563] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[1.497275] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.500758] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[1.500951] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[1.501201] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.501822] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[1.501871] (-) TimerEvent: {}
+[1.504780] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[1.504965] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[1.510442] (test_package) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.523163] (test_package) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.557887] (test_package) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.562710] (test_package) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.577526] (test_package) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.602082] (-) TimerEvent: {}
+[1.637442] (test_package) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.645657] (test_package) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.669686] (test_package) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.702239] (-) TimerEvent: {}
+[1.731138] (test_package) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[1.741682] (test_package) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.765437] (test_package) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.802429] (-) TimerEvent: {}
+[1.820891] (test_package) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[1.829771] (test_package) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.853070] (test_package) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.902568] (-) TimerEvent: {}
+[1.910906] (test_package) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[1.921032] (test_package) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[1.921424] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[2.002699] (-) TimerEvent: {}
+[2.042466] (test_package) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.056727] (test_package) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.077714] (test_package) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.102854] (-) TimerEvent: {}
+[2.142357] (test_package) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.153510] (test_package) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.169804] (test_package) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.203112] (-) TimerEvent: {}
+[2.212921] (test_package) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.213381] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.213942] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.214267] (test_package) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[2.218917] (test_package) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[2.219144] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[2.239564] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.239757] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.239968] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.240213] (test_package) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[2.244215] (test_package) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[2.244784] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[2.245134] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.245427] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.245466] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[2.249087] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[2.249399] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[2.255766] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.255997] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[2.256071] (test_package) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.256107] (test_package) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.263818] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[2.267129] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[2.267227] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[2.267546] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.267697] (test_package) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.268212] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[2.268955] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.268988] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[2.269021] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[2.271837] (test_package) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[2.271941] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.273459] (test_package) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[2.295780] (test_package) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[2.296107] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[2.296354] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.296675] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.296885] (test_package) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.297839] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[2.300693] (test_package) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[2.300956] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[2.301030] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.301564] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[2.303181] (-) TimerEvent: {}
+[2.304277] (test_package) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[2.304555] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[2.304654] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.305077] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[2.307823] (test_package) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[2.308261] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[2.308683] (test_package) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[2.312929] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.313057] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[2.325523] (test_package) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.326451] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.327017] (test_package) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[2.327484] (test_package) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[2.327883] (test_package) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[2.328554] (test_package) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[2.328921] (test_package) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[2.329696] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[2.333336] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1\n'}
+[2.333772] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[2.334485] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[2.337406] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.1\n'}
+[2.337485] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[2.337964] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[2.340815] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.1\n'}
+[2.341005] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[2.341301] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[2.345261] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.1\n'}
+[2.345444] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[2.346066] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[2.349379] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1\n'}
+[2.349459] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[2.349960] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[2.352714] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1\n'}
+[2.353038] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[2.353295] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[2.355957] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.1\n'}
+[2.356168] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[2.356708] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[2.359844] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.1\n'}
+[2.360155] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[2.360823] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[2.363728] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.1\n'}
+[2.363987] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[2.364204] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.364771] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[2.367426] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1\n'}
+[2.367645] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[2.367864] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.368467] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[2.371060] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.1\n'}
+[2.371160] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[2.371410] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.372047] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[2.374757] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1\n'}
+[2.375241] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[2.376093] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[2.379421] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1\n'}
+[2.379733] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[2.380302] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[2.383481] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1\n'}
+[2.383840] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[2.384021] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.384653] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[2.387655] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1\n'}
+[2.387790] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[2.388047] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.388627] (test_package) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[2.391636] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1\n'}
+[2.391990] (test_package) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[2.392340] (test_package) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[2.393737] (test_package) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[2.394003] (test_package) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.397417] (test_package) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.403363] (-) TimerEvent: {}
+[2.412350] (test_package) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.416765] (test_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.488393] (test_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.488771] (test_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/srl/lbr-stack/src/test_package/include>\n'}
+[2.488850] (test_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.489936] (test_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.492889] (test_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.493035] (test_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.493946] (test_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.495499] (test_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.503466] (-) TimerEvent: {}
+[2.509414] (test_package) StdoutLine: {'line': b'-- Generating done\n'}
+[2.513429] (test_package) StdoutLine: {'line': b'-- Build files have been written to: /home/srl/lbr-stack/build/test_package\n'}
+[2.523257] (test_package) CommandEnded: {'returncode': 0}
+[2.523646] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'build'}
+[2.523682] (test_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/srl/lbr-stack/build/test_package', '--', '-j20', '-l20'], 'cwd': '/home/srl/lbr-stack/build/test_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/srl/lbr-stack/install/lbr_description/share'), ('USER', 'srl'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srl'), ('OLDPWD', '/home/srl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '1806'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/srl/lbr-stack/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/srl/lbr-stack/src/lbr_gazebo_models/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/srl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/srl-ThinkPad-P15v-Gen-3:@/tmp/.ICE-unix/1773,unix/srl-ThinkPad-P15v-Gen-3:/tmp/.ICE-unix/1773'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ddf86b89_cd5e_40a5_95a8_c11c85f005b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/srl/lbr-stack/install/test_package/lib'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/srl/lbr-stack/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srl/lbr-stack/build/test_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_moveit:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:/home/srl/lbr-stack/build/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble')]), 'shell': False}
+[2.557006] (test_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_movement_plugin\x1b[0m\n'}
+[2.558140] (test_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_box_ign_plugin\x1b[0m\n'}
+[2.576367] (test_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o\x1b[0m\n'}
+[2.577008] (test_package) StdoutLine: {'line': b'[ 75%] Built target my_box_ign_plugin\n'}
+[2.603699] (-) TimerEvent: {}
+[2.704026] (-) TimerEvent: {}
+[2.804444] (-) TimerEvent: {}
+[2.904819] (-) TimerEvent: {}
+[3.005120] (-) TimerEvent: {}
+[3.105502] (-) TimerEvent: {}
+[3.205800] (-) TimerEvent: {}
+[3.306156] (-) TimerEvent: {}
+[3.406516] (-) TimerEvent: {}
+[3.506887] (-) TimerEvent: {}
+[3.607286] (-) TimerEvent: {}
+[3.707651] (-) TimerEvent: {}
+[3.808120] (-) TimerEvent: {}
+[3.908748] (-) TimerEvent: {}
+[4.009359] (-) TimerEvent: {}
+[4.109685] (-) TimerEvent: {}
+[4.210033] (-) TimerEvent: {}
+[4.310528] (-) TimerEvent: {}
+[4.410790] (-) TimerEvent: {}
+[4.511067] (-) TimerEvent: {}
+[4.611432] (-) TimerEvent: {}
+[4.711809] (-) TimerEvent: {}
+[4.812180] (-) TimerEvent: {}
+[4.912495] (-) TimerEvent: {}
+[5.012861] (-) TimerEvent: {}
+[5.113227] (-) TimerEvent: {}
+[5.213603] (-) TimerEvent: {}
+[5.313975] (-) TimerEvent: {}
+[5.414343] (-) TimerEvent: {}
+[5.514901] (-) TimerEvent: {}
+[5.615272] (-) TimerEvent: {}
+[5.715640] (-) TimerEvent: {}
+[5.815957] (-) TimerEvent: {}
+[5.916296] (-) TimerEvent: {}
+[6.016645] (-) TimerEvent: {}
+[6.116973] (-) TimerEvent: {}
+[6.217311] (-) TimerEvent: {}
+[6.317685] (-) TimerEvent: {}
+[6.418025] (-) TimerEvent: {}
+[6.518382] (-) TimerEvent: {}
+[6.618804] (-) TimerEvent: {}
+[6.719156] (-) TimerEvent: {}
+[6.819487] (-) TimerEvent: {}
+[6.919832] (-) TimerEvent: {}
+[7.020165] (-) TimerEvent: {}
+[7.120493] (-) TimerEvent: {}
+[7.220838] (-) TimerEvent: {}
+[7.321187] (-) TimerEvent: {}
+[7.421548] (-) TimerEvent: {}
+[7.521931] (-) TimerEvent: {}
+[7.622269] (-) TimerEvent: {}
+[7.722610] (-) TimerEvent: {}
+[7.822953] (-) TimerEvent: {}
+[7.923303] (-) TimerEvent: {}
+[8.023651] (-) TimerEvent: {}
+[8.123999] (-) TimerEvent: {}
+[8.224343] (-) TimerEvent: {}
+[8.324686] (-) TimerEvent: {}
+[8.425034] (-) TimerEvent: {}
+[8.525395] (-) TimerEvent: {}
+[8.625740] (-) TimerEvent: {}
+[8.726070] (-) TimerEvent: {}
+[8.826429] (-) TimerEvent: {}
+[8.926757] (-) TimerEvent: {}
+[9.027079] (-) TimerEvent: {}
+[9.127431] (-) TimerEvent: {}
+[9.227751] (-) TimerEvent: {}
+[9.328099] (-) TimerEvent: {}
+[9.428439] (-) TimerEvent: {}
+[9.528917] (-) TimerEvent: {}
+[9.629263] (-) TimerEvent: {}
+[9.729586] (-) TimerEvent: {}
+[9.829920] (-) TimerEvent: {}
+[9.930258] (-) TimerEvent: {}
+[10.030596] (-) TimerEvent: {}
+[10.130938] (-) TimerEvent: {}
+[10.231290] (-) TimerEvent: {}
+[10.302586] (test_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librobot_movement_plugin.so\x1b[0m\n'}
+[10.331495] (-) TimerEvent: {}
+[10.431829] (-) TimerEvent: {}
+[10.532177] (-) TimerEvent: {}
+[10.632447] (-) TimerEvent: {}
+[10.732850] (-) TimerEvent: {}
+[10.824890] (test_package) StdoutLine: {'line': b'[100%] Built target robot_movement_plugin\n'}
+[10.833062] (-) TimerEvent: {}
+[10.835844] (test_package) CommandEnded: {'returncode': 0}
+[10.836535] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'install'}
+[10.843282] (test_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/srl/lbr-stack/build/test_package'], 'cwd': '/home/srl/lbr-stack/build/test_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/srl/lbr-stack/install/lbr_description/share'), ('USER', 'srl'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srl'), ('OLDPWD', '/home/srl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '1806'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/srl/lbr-stack/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/srl/lbr-stack/src/lbr_gazebo_models/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/srl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/srl-ThinkPad-P15v-Gen-3:@/tmp/.ICE-unix/1773,unix/srl-ThinkPad-P15v-Gen-3:/tmp/.ICE-unix/1773'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ddf86b89_cd5e_40a5_95a8_c11c85f005b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/srl/lbr-stack/install/test_package/lib'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/srl/lbr-stack/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srl/lbr-stack/build/test_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_moveit:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:/home/srl/lbr-stack/build/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble')]), 'shell': False}
+[10.849269] (test_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.849351] (test_package) StdoutLine: {'line': b'-- Installing: /home/srl/lbr-stack/install/test_package/share/test_package/package.dsv\n'}
+[10.851093] (test_package) CommandEnded: {'returncode': 0}
+[10.865833] (test_package) JobEnded: {'identifier': 'test_package', 'rc': 0}
+[10.866083] (-) EventReactorShutdown: {}

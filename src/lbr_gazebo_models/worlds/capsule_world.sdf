@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- Lumière -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Sol -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Ta capsule -->
+    <include>
+      <uri>model://magnetic_capsule</uri>
+    </include>
+
+    <include>
+      <uri>model://iiwa14V</uri>
+    </include>
+
+
+
+
+  </world>
+</sdf>

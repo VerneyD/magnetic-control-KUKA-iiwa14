@@ -23,34 +23,17 @@ def generate_launch_description():
         ]), 
         launch_arguments={
             'model': 'iiwa14',
-            'mode' : 'mock'
+            'mode' : 'gazebo'
         }.items()
     )
-
-    nodes.append(launch_servo)
-
-    launch_mock= IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                FindPackageShare('lbr_bringup'),
-                'launch',
-                'mock.launch.py'
-            ])
-        ]),
-                launch_arguments={
-            'model': 'iiwa14',
-        }.items()
-    )
-
-    nodes.append(launch_mock)
 
 
     
-    end_effector_position_node = Node(
-        package='my_package',
-        executable='end_effector_position_node',
-    )
-    nodes.append(end_effector_position_node)
+    # end_effector_position_node = Node(
+    #     package='my_package',
+    #     executable='end_effector_position_node',
+    # )
+    # nodes.append(end_effector_position_node)
 
 
     launch_rviz= IncludeLaunchDescription(

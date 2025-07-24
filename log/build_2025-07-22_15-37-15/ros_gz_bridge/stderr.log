@@ -1,0 +1,20 @@
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:503: CMakeFiles/ros_gz_bridge.dir/generated/factories/builtin_interfaces.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:517: CMakeFiles/ros_gz_bridge.dir/generated/factories/actuator_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:531: CMakeFiles/ros_gz_bridge.dir/generated/factories/geometry_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:545: CMakeFiles/ros_gz_bridge.dir/generated/factories/gps_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:559: CMakeFiles/ros_gz_bridge.dir/generated/factories/nav_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:573: CMakeFiles/ros_gz_bridge.dir/generated/factories/rcl_interfaces.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:587: CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:601: CMakeFiles/ros_gz_bridge.dir/generated/factories/rosgraph_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:615: CMakeFiles/ros_gz_bridge.dir/generated/factories/sensor_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:629: CMakeFiles/ros_gz_bridge.dir/generated/factories/std_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:643: CMakeFiles/ros_gz_bridge.dir/generated/factories/tf2_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:657: CMakeFiles/ros_gz_bridge.dir/generated/factories/trajectory_msgs.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:671: CMakeFiles/ros_gz_bridge.dir/generated/factories/vision_msgs.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/ros_gz_bridge.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/test_utils.dir/build.make:90: CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/test_utils.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

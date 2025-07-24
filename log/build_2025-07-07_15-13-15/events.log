@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (-) JobUnselected: {'identifier': 'fri_client_sdk'}
+[0.000533] (-) JobUnselected: {'identifier': 'gz_ros2_control'}
+[0.000629] (-) JobUnselected: {'identifier': 'gz_ros2_control_demos'}
+[0.000655] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000694] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.000716] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.000745] (-) JobUnselected: {'identifier': 'iiwa14_moveit_config'}
+[0.000923] (-) JobUnselected: {'identifier': 'iiwa7_moveit_config'}
+[0.000942] (-) JobUnselected: {'identifier': 'lbr_bringup'}
+[0.000963] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_cpp'}
+[0.000989] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_py'}
+[0.001104] (-) JobUnselected: {'identifier': 'lbr_demos_cpp'}
+[0.001132] (-) JobUnselected: {'identifier': 'lbr_demos_py'}
+[0.001154] (-) JobUnselected: {'identifier': 'lbr_description'}
+[0.001176] (-) JobUnselected: {'identifier': 'lbr_fri_idl'}
+[0.001343] (-) JobUnselected: {'identifier': 'lbr_fri_ros2'}
+[0.001490] (-) JobUnselected: {'identifier': 'lbr_fri_ros2_stack'}
+[0.001561] (-) JobUnselected: {'identifier': 'lbr_gazebo_models'}
+[0.001593] (-) JobUnselected: {'identifier': 'lbr_moveit'}
+[0.001615] (-) JobUnselected: {'identifier': 'lbr_moveit_cpp'}
+[0.001683] (-) JobUnselected: {'identifier': 'lbr_ros2_control'}
+[0.001705] (-) JobUnselected: {'identifier': 'med14_moveit_config'}
+[0.001731] (-) JobUnselected: {'identifier': 'med7_moveit_config'}
+[0.001752] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001772] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.001803] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.001861] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.001882] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.001902] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.001922] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.001984] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.002007] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.002032] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.002052] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.002074] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.002133] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.002167] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.002389] (test_package) JobQueued: {'identifier': 'test_package', 'dependencies': OrderedDict()}
+[0.002491] (test_package) JobStarted: {'identifier': 'test_package'}
+[0.010750] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'cmake'}
+[0.012604] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'build'}
+[0.012700] (test_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/srl/lbr-stack/build/test_package', '--', '-j20', '-l20'], 'cwd': '/home/srl/lbr-stack/build/test_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/srl/lbr-stack/install/lbr_description/share'), ('USER', 'srl'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '3538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/srl/lbr-stack/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/srl/lbr-stack/src/lbr_gazebo_models/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/srl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/srl-ThinkPad-P15v-Gen-3:@/tmp/.ICE-unix/1590,unix/srl-ThinkPad-P15v-Gen-3:/tmp/.ICE-unix/1590'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e3bf4b5_deb3_435d_83b6_70944938dc4a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/srl/lbr-stack/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srl/lbr-stack/build/test_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_moveit:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:/home/srl/lbr-stack/build/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble')]), 'shell': False}
+[0.064209] (test_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_movement_plugin\x1b[0m\n'}
+[0.077470] (test_package) StdoutLine: {'line': b'[ 50%] Built target my_box_ign_plugin\n'}
+[0.088706] (test_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o\x1b[0m\n'}
+[0.099806] (-) TimerEvent: {}
+[0.200230] (-) TimerEvent: {}
+[0.300775] (-) TimerEvent: {}
+[0.401248] (-) TimerEvent: {}
+[0.501548] (-) TimerEvent: {}
+[0.601944] (-) TimerEvent: {}
+[0.702204] (-) TimerEvent: {}
+[0.802471] (-) TimerEvent: {}
+[0.902748] (-) TimerEvent: {}
+[1.002961] (-) TimerEvent: {}
+[1.103206] (-) TimerEvent: {}
+[1.203514] (-) TimerEvent: {}
+[1.303898] (-) TimerEvent: {}
+[1.404857] (-) TimerEvent: {}
+[1.505353] (-) TimerEvent: {}
+[1.605626] (-) TimerEvent: {}
+[1.705894] (-) TimerEvent: {}
+[1.806180] (-) TimerEvent: {}
+[1.906516] (-) TimerEvent: {}
+[2.006791] (-) TimerEvent: {}
+[2.107097] (-) TimerEvent: {}
+[2.207374] (-) TimerEvent: {}
+[2.307616] (-) TimerEvent: {}
+[2.407922] (-) TimerEvent: {}
+[2.508166] (-) TimerEvent: {}
+[2.608382] (-) TimerEvent: {}
+[2.708635] (-) TimerEvent: {}
+[2.808885] (-) TimerEvent: {}
+[2.909129] (-) TimerEvent: {}
+[3.009480] (-) TimerEvent: {}
+[3.109759] (-) TimerEvent: {}
+[3.210034] (-) TimerEvent: {}
+[3.310395] (-) TimerEvent: {}
+[3.410613] (-) TimerEvent: {}
+[3.510850] (-) TimerEvent: {}
+[3.611201] (-) TimerEvent: {}
+[3.711530] (-) TimerEvent: {}
+[3.811805] (-) TimerEvent: {}
+[3.912161] (-) TimerEvent: {}
+[4.012425] (-) TimerEvent: {}
+[4.112639] (-) TimerEvent: {}
+[4.212878] (-) TimerEvent: {}
+[4.221099] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void my_plugins::RobotMovementPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.221334] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:43:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.221436] (test_package) StderrLine: {'line': b'   43 |         this->lastJointState = \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K;\n'}
+[4.221529] (test_package) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.221608] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:43:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[4.221689] (test_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[4.221765] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[4.222010] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[4.222134] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[4.222222] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[4.222311] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.222391] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.222463] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.222530] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.222596] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.222669] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.222730] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.222791] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.222851] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.222912] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:7\x1b[m\x1b[K:\n'}
+[4.222977] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.223050] (test_package) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.223126] (test_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.223205] (test_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[4.223305] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[4.223577] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[4.224204] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[4.224613] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.224694] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.224734] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.224771] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.224823] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.224855] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.224887] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.224914] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.224940] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:7\x1b[m\x1b[K:\n'}
+[4.224970] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.225006] (test_package) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.225036] (test_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.225068] (test_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[4.225101] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[4.225130] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[4.225163] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[4.225192] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.225222] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.225261] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.225295] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.225337] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.225371] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.225404] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.225440] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.225474] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.225509] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:7\x1b[m\x1b[K:\n'}
+[4.225545] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.225584] (test_package) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.225624] (test_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.225662] (test_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:20\x1b[m\x1b[K,\n'}
+[4.225700] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7\x1b[m\x1b[K,\n'}
+[4.225741] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:8\x1b[m\x1b[K:\n'}
+[4.225781] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.225821] (test_package) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.225861] (test_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.225906] (test_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7\x1b[m\x1b[K,\n'}
+[4.225953] (test_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:8\x1b[m\x1b[K:\n'}
+[4.225987] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.226024] (test_package) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.226057] (test_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.226089] (test_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:48:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.226145] (test_package) StderrLine: {'line': b'   48 |       }\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.226186] (test_package) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.313018] (-) TimerEvent: {}
+[4.413504] (-) TimerEvent: {}
+[4.513822] (-) TimerEvent: {}
+[4.614087] (-) TimerEvent: {}
+[4.714366] (-) TimerEvent: {}
+[4.819882] (-) TimerEvent: {}
+[4.920222] (-) TimerEvent: {}
+[5.020453] (-) TimerEvent: {}
+[5.120688] (-) TimerEvent: {}
+[5.220993] (-) TimerEvent: {}
+[5.321384] (-) TimerEvent: {}
+[5.421674] (-) TimerEvent: {}
+[5.522060] (-) TimerEvent: {}
+[5.622413] (-) TimerEvent: {}
+[5.647829] (test_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1\n'}
+[5.647996] (test_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2\n'}
+[5.648222] (test_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.650214] (test_package) CommandEnded: {'returncode': 2}
+[5.659708] (test_package) JobEnded: {'identifier': 'test_package', 'rc': 2}
+[5.670196] (-) EventReactorShutdown: {}

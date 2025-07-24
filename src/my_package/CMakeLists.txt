@@ -12,8 +12,11 @@ find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(control_msgs REQUIRED) 
-# Trouver les dépendances Python
 find_package(rclpy REQUIRED)
+find_package(gazebo_ros REQUIRED)
+find_package(ignition-math6 REQUIRED)
+find_package(rclcpp REQUIRED)
+
 
 # Installer les scripts Python
 install(
@@ -40,8 +43,7 @@ if(BUILD_TESTING)
 endif()
 
 
-add_executable(command_publisher2 src/command_publisher2.cpp)
-ament_target_dependencies(command_publisher2 rclcpp sensor_msgs geometry_msgs)
+
 add_executable(command_listener src/command_listener.cpp)
 ament_target_dependencies(command_listener rclcpp sensor_msgs geometry_msgs)
 add_executable(command_publisher3 src/command_publisher3.cpp)
@@ -63,8 +65,16 @@ ament_target_dependencies(end_effector_position_node  rclcpp  tf2_ros  geometry_
 add_executable(position_control src/position_control.cpp)
 ament_target_dependencies(position_control rclcpp trajectory_msgs std_msgs geometry_msgs sensor_msgs control_msgs)
 
+add_executable(joint_state_pub src/joint_state_pub.cpp)
+ament_target_dependencies(joint_state_pub
+  rclcpp
+  sensor_msgs
+)
+install(TARGETS joint_state_pub
+  DESTINATION lib/${PROJECT_NAME})
+
+
 install(TARGETS
-  command_publisher2
   command_listener
   command_publisher3
   reset_position
@@ -75,7 +85,7 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 install(
-  DIRECTORY launch/
+  DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}
 )
 ament_package()

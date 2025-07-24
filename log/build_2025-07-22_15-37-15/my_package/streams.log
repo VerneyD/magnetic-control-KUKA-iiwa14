@@ -1,0 +1,85 @@
+[0.338s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/my_package
+[0.361s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.568s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.591s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.636s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.641s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.656s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.809s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.863s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.872s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.274s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.459s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.790s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.791s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.932s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.046s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.050s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.071s] -- Searching for dependencies of ignition-math6
+[2.078s] -- Looking for OGRE...
+[2.102s] -- Found Ogre Ghadamon (1.9.0)
+[2.102s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.139s] -- Looking for OGRE_Paging...
+[2.142s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.142s] -- Looking for OGRE_Terrain...
+[2.143s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.143s] -- Looking for OGRE_Property...
+[2.143s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.143s] -- Looking for OGRE_RTShaderSystem...
+[2.143s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.144s] -- Looking for OGRE_Volume...
+[2.144s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.144s] -- Looking for OGRE_Overlay...
+[2.144s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.943s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.945s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.951s] -- Searching for dependencies of ignition-transport8
+[3.048s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.092s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.103s] -- Checking for module 'libzmq >= 4'
+[3.162s] --   Found libzmq , version 4.3.4
+[3.252s] -- Checking for module 'uuid'
+[3.281s] --   Found uuid, version 2.37.2
+[3.352s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.353s] -- Searching for dependencies of ignition-msgs5
+[3.436s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.460s] -- Checking for module 'tinyxml2'
+[3.508s] --   Found tinyxml2, version 9.0.0
+[3.632s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.636s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.637s] -- Searching for dependencies of ignition-common3
+[3.637s] -- Looking for dlfcn.h - found
+[3.637s] -- Looking for libdl - found
+[3.690s] -- Searching for <ignition-common3> component [graphics]
+[3.697s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.698s] -- Searching for dependencies of ignition-common3-graphics
+[3.703s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.709s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.715s] -- Searching for dependencies of ignition-fuel_tools4
+[3.875s] -- Checking for module 'jsoncpp'
+[3.913s] --   Found jsoncpp, version 1.9.5
+[4.019s] -- Checking for module 'libzip'
+[4.045s] --   Found libzip, version 1.7.3
+[4.113s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.115s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.117s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.133s] -- Gazebo version: 11.10
+[4.133s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.138s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.381s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.808s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.835s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.844s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.932s] -- Configuring incomplete, errors occurred!
+[4.934s] See also "/home/srl/lbr-stack/build/my_package/CMakeFiles/CMakeOutput.log".
+[4.934s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[4.934s]   ament_cmake_symlink_install_targets() 'command_publisher2' is not a target
+[4.934s] Call Stack (most recent call first):
+[4.940s]   /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[4.942s]   CMakeLists.txt:77 (install)
+[4.942s] 
+[4.943s] [0m
+[4.970s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/my_package

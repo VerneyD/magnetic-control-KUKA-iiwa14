@@ -1,0 +1,6 @@
+[ 50%] Built target my_box_ign_plugin
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librobot_movement_plugin.so[0m
+[100%] Built target robot_movement_plugin
+-- Install configuration: ""
+-- Installing: /home/srl/lbr-stack/install/test_package/share/test_package/package.dsv

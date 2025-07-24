@@ -62,11 +62,11 @@ def generate_launch_description():
 
     )
 
-    end_effector_position_node = Node(
-        package='my_package',
-        executable='end_effector_position_node',
-    )
-    nodes.append(end_effector_position_node)
+    # end_effector_position_node = Node(
+    #     package='my_package',
+    #     executable='end_effector_position_node',
+    # )
+    # nodes.append(end_effector_position_node)
     # Ajout des lances à la liste des noeuds
     nodes.append(launch_simulation)
     nodes.append(launch_hardware)

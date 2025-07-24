@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[ 50%] Built target my_box_ign_plugin
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RobotMovementPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:108:13:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto* posComp[m[K’
+  108 |       auto *[01;31m[KposComp[m[K = ecm.Component<ignition::gazebo::components::JointPosition>(jointEntity);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:101:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kignition::gazebo::v6::components::Component<std::vector<double>, ignition::gazebo::v6::components::JointPositionTag, ignition::gazebo::v6::serializers::VectorDoubleSerializer>* posComp[m[K’
+  101 |        auto *[01;36m[KposComp[m[K = ecm.Component<ignition::gazebo::components::JointPosition>(jointEntity);
+      |              [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

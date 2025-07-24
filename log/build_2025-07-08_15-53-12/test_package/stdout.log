@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target my_box_ign_plugin[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/my_box_ign_plugin.dir/src/my_box_ign_plugin.cpp.o[0m
+[ 75%] Built target robot_movement_plugin

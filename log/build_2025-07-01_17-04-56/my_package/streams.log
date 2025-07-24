@@ -1,0 +1,52 @@
+[0.184s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[0.228s] [ 12%] Built target command_listener
+[0.229s] [ 25%] Built target command_publisher2
+[0.230s] [ 50%] Built target reset_position
+[0.231s] [ 50%] Built target command_publisher3
+[0.233s] [ 62%] Built target position_control
+[0.234s] [ 75%] Built target robot_info
+[0.234s] [ 87%] Built target robot_info_controller
+[0.234s] [100%] Built target end_effector_position_node
+[0.279s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[0.281s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package
+[0.288s] -- Install configuration: ""
+[0.289s] -- Execute custom install script
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/position_control_gui.py
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher2
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_listener
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher3
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/reset_position
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/robot_info
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/robot_info_controller
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/end_effector_position_node
+[0.289s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/position_control
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_complete.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_hardware.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_hw_robot.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_move.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_simu_robot.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/hardware_gazebo_joint_control.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/move_group_hw.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_launch2.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_launch3.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_launch_rviz.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_position.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_reset.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_robot_info.launch.py
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.290s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.sh
+[0.291s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.dsv
+[0.291s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.bash
+[0.291s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.sh
+[0.291s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.zsh
+[0.291s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.dsv
+[0.291s] -- Symlinking: /home/srl/lbr-stack/install/my_package/share/my_package/package.dsv
+[0.299s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.300s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.300s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.301s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/package.xml
+[0.338s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package

@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000698] (-) JobUnselected: {'identifier': 'fri_client_sdk'}
+[0.000816] (-) JobUnselected: {'identifier': 'gz_ros2_control'}
+[0.000855] (-) JobUnselected: {'identifier': 'gz_ros2_control_demos'}
+[0.000894] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000923] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.000952] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.001245] (-) JobUnselected: {'identifier': 'iiwa14_moveit_config'}
+[0.001297] (-) JobUnselected: {'identifier': 'iiwa7_moveit_config'}
+[0.001334] (-) JobUnselected: {'identifier': 'lbr_bringup'}
+[0.001539] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_cpp'}
+[0.001588] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_py'}
+[0.001622] (-) JobUnselected: {'identifier': 'lbr_demos_cpp'}
+[0.002052] (-) JobUnselected: {'identifier': 'lbr_demos_py'}
+[0.002191] (-) JobUnselected: {'identifier': 'lbr_description'}
+[0.002233] (-) JobUnselected: {'identifier': 'lbr_fri_idl'}
+[0.002266] (-) JobUnselected: {'identifier': 'lbr_fri_ros2'}
+[0.002299] (-) JobUnselected: {'identifier': 'lbr_fri_ros2_stack'}
+[0.002328] (-) JobUnselected: {'identifier': 'lbr_gazebo_models'}
+[0.002367] (-) JobUnselected: {'identifier': 'lbr_moveit'}
+[0.002394] (-) JobUnselected: {'identifier': 'lbr_moveit_cpp'}
+[0.002420] (-) JobUnselected: {'identifier': 'lbr_ros2_control'}
+[0.002447] (-) JobUnselected: {'identifier': 'med14_moveit_config'}
+[0.002474] (-) JobUnselected: {'identifier': 'med7_moveit_config'}
+[0.002505] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002531] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.002656] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.002688] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.002715] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.002742] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.002768] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.002795] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.002824] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.002852] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.002879] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.002907] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.002933] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.002960] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.003035] (test_package) JobQueued: {'identifier': 'test_package', 'dependencies': OrderedDict()}
+[0.003160] (test_package) JobStarted: {'identifier': 'test_package'}
+[0.014305] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'cmake'}
+[0.015514] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'build'}
+[0.016342] (test_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/srl/lbr-stack/build/test_package', '--', '-j20', '-l20'], 'cwd': '/home/srl/lbr-stack/build/test_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/srl/lbr-stack/install/lbr_description/share'), ('USER', 'srl'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '2550'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/srl/lbr-stack/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/srl/lbr-stack/src/lbr_gazebo_models/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/srl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/srl-ThinkPad-P15v-Gen-3:@/tmp/.ICE-unix/1641,unix/srl-ThinkPad-P15v-Gen-3:/tmp/.ICE-unix/1641'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f039b00_14f0_43e2_97c2_a241deb305bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/home/srl/lbr-stack/install/test_package/lib'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/srl/lbr-stack/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srl/lbr-stack/build/test_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_moveit:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:/home/srl/lbr-stack/build/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble')]), 'shell': False}
+[0.082994] (test_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_movement_plugin\x1b[0m\n'}
+[0.094537] (test_package) StdoutLine: {'line': b'[ 50%] Built target my_box_ign_plugin\n'}
+[0.099724] (-) TimerEvent: {}
+[0.111954] (test_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o\x1b[0m\n'}
+[0.199861] (-) TimerEvent: {}
+[0.300137] (-) TimerEvent: {}
+[0.400458] (-) TimerEvent: {}
+[0.500958] (-) TimerEvent: {}
+[0.601425] (-) TimerEvent: {}
+[0.701863] (-) TimerEvent: {}
+[0.802210] (-) TimerEvent: {}
+[0.902616] (-) TimerEvent: {}
+[1.002938] (-) TimerEvent: {}
+[1.103393] (-) TimerEvent: {}
+[1.203773] (-) TimerEvent: {}
+[1.304185] (-) TimerEvent: {}
+[1.404552] (-) TimerEvent: {}
+[1.504963] (-) TimerEvent: {}
+[1.605384] (-) TimerEvent: {}
+[1.705783] (-) TimerEvent: {}
+[1.806196] (-) TimerEvent: {}
+[1.906592] (-) TimerEvent: {}
+[2.006973] (-) TimerEvent: {}
+[2.107390] (-) TimerEvent: {}
+[2.207684] (-) TimerEvent: {}
+[2.308036] (-) TimerEvent: {}
+[2.408292] (-) TimerEvent: {}
+[2.508590] (-) TimerEvent: {}
+[2.608942] (-) TimerEvent: {}
+[2.709271] (-) TimerEvent: {}
+[2.809594] (-) TimerEvent: {}
+[2.909901] (-) TimerEvent: {}
+[3.010228] (-) TimerEvent: {}
+[3.110533] (-) TimerEvent: {}
+[3.210832] (-) TimerEvent: {}
+[3.311140] (-) TimerEvent: {}
+[3.411425] (-) TimerEvent: {}
+[3.511801] (-) TimerEvent: {}
+[3.612101] (-) TimerEvent: {}
+[3.712355] (-) TimerEvent: {}
+[3.812628] (-) TimerEvent: {}
+[3.912894] (-) TimerEvent: {}
+[4.013147] (-) TimerEvent: {}
+[4.113451] (-) TimerEvent: {}
+[4.213835] (-) TimerEvent: {}
+[4.314065] (-) TimerEvent: {}
+[4.414474] (-) TimerEvent: {}
+[4.514764] (-) TimerEvent: {}
+[4.615064] (-) TimerEvent: {}
+[4.715478] (-) TimerEvent: {}
+[4.815853] (-) TimerEvent: {}
+[4.916084] (-) TimerEvent: {}
+[5.016555] (-) TimerEvent: {}
+[5.116933] (-) TimerEvent: {}
+[5.217361] (-) TimerEvent: {}
+[5.317671] (-) TimerEvent: {}
+[5.417953] (-) TimerEvent: {}
+[5.518276] (-) TimerEvent: {}
+[5.618526] (-) TimerEvent: {}
+[5.718810] (-) TimerEvent: {}
+[5.819165] (-) TimerEvent: {}
+[5.919389] (-) TimerEvent: {}
+[6.019646] (-) TimerEvent: {}
+[6.119987] (-) TimerEvent: {}
+[6.220339] (-) TimerEvent: {}
+[6.320564] (-) TimerEvent: {}
+[6.420933] (-) TimerEvent: {}
+[6.521275] (-) TimerEvent: {}
+[6.621489] (-) TimerEvent: {}
+[6.721817] (-) TimerEvent: {}
+[6.822176] (-) TimerEvent: {}
+[6.922456] (-) TimerEvent: {}
+[7.022697] (-) TimerEvent: {}
+[7.123077] (-) TimerEvent: {}
+[7.223335] (-) TimerEvent: {}
+[7.323576] (-) TimerEvent: {}
+[7.423821] (-) TimerEvent: {}
+[7.524154] (-) TimerEvent: {}
+[7.624353] (-) TimerEvent: {}
+[7.724565] (-) TimerEvent: {}
+[7.825016] (-) TimerEvent: {}
+[7.925304] (-) TimerEvent: {}
+[8.025561] (-) TimerEvent: {}
+[8.125813] (-) TimerEvent: {}
+[8.226135] (-) TimerEvent: {}
+[8.326385] (-) TimerEvent: {}
+[8.426580] (-) TimerEvent: {}
+[8.526839] (-) TimerEvent: {}
+[8.627278] (-) TimerEvent: {}
+[8.727630] (-) TimerEvent: {}
+[8.827886] (-) TimerEvent: {}
+[8.928270] (-) TimerEvent: {}
+[9.028513] (-) TimerEvent: {}
+[9.128736] (-) TimerEvent: {}
+[9.228987] (-) TimerEvent: {}
+[9.329314] (-) TimerEvent: {}
+[9.429624] (-) TimerEvent: {}
+[9.529937] (-) TimerEvent: {}
+[9.630246] (-) TimerEvent: {}
+[9.730448] (-) TimerEvent: {}
+[9.830796] (-) TimerEvent: {}
+[9.931120] (-) TimerEvent: {}
+[10.031509] (-) TimerEvent: {}
+[10.131922] (-) TimerEvent: {}
+[10.232243] (-) TimerEvent: {}
+[10.332516] (-) TimerEvent: {}
+[10.432795] (-) TimerEvent: {}
+[10.533145] (-) TimerEvent: {}
+[10.633443] (-) TimerEvent: {}
+[10.733686] (-) TimerEvent: {}
+[10.834055] (-) TimerEvent: {}
+[10.934392] (-) TimerEvent: {}
+[11.034730] (-) TimerEvent: {}
+[11.134973] (-) TimerEvent: {}
+[11.206308] (test_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librobot_movement_plugin.so\x1b[0m\n'}
+[11.235169] (-) TimerEvent: {}
+[11.335512] (-) TimerEvent: {}
+[11.435887] (-) TimerEvent: {}
+[11.536206] (-) TimerEvent: {}
+[11.636673] (-) TimerEvent: {}
+[11.736906] (-) TimerEvent: {}
+[11.837174] (-) TimerEvent: {}
+[11.859780] (test_package) StdoutLine: {'line': b'[100%] Built target robot_movement_plugin\n'}
+[11.870358] (test_package) CommandEnded: {'returncode': 0}
+[11.871127] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'install'}
+[11.878984] (test_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/srl/lbr-stack/build/test_package'], 'cwd': '/home/srl/lbr-stack/build/test_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/srl/lbr-stack/install/lbr_description/share'), ('USER', 'srl'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '2550'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/srl/lbr-stack/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'srl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/srl/lbr-stack/install/fri_client_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/srl/lbr-stack/install/fri_client_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/srl/lbr-stack/src/lbr_gazebo_models/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/srl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/srl-ThinkPad-P15v-Gen-3:@/tmp/.ICE-unix/1641,unix/srl-ThinkPad-P15v-Gen-3:/tmp/.ICE-unix/1641'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f039b00_14f0_43e2_97c2_a241deb305bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/home/srl/lbr-stack/install/test_package/lib'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/srl/lbr-stack/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srl/lbr-stack/build/test_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_demos_py:/home/srl/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/srl/lbr-stack/build/lbr_moveit:/home/srl/lbr-stack/install/lbr_moveit/lib/python3.10/site-packages:/home/srl/lbr-stack/build/lbr_demos_advanced_py:/home/srl/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages:/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble')]), 'shell': False}
+[11.887313] (test_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.887566] (test_package) StdoutLine: {'line': b'-- Installing: /home/srl/lbr-stack/install/test_package/share/test_package/package.dsv\n'}
+[11.890041] (test_package) CommandEnded: {'returncode': 0}
+[11.906305] (test_package) JobEnded: {'identifier': 'test_package', 'rc': 0}
+[11.906812] (-) EventReactorShutdown: {}

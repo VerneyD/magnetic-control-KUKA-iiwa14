@@ -1,0 +1,295 @@
+[0.031s] Invoking command in '/home/srl/lbr-stack/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/gz_ros2_control/gz_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/gz_ros2_control
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.273s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.566s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.674s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.701s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.703s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.748s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.753s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.761s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.017s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.021s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.047s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.113s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.119s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.143s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.147s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.158s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.176s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.190s] -- Looking for pthread.h
+[1.280s] -- Looking for pthread.h - found
+[1.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.357s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.359s] -- Found Threads: TRUE  
+[1.479s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.487s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[1.493s] -- Searching for dependencies of ignition-gazebo6
+[1.497s] -- Looking for sdformat12 -- found version 12.8.0
+[1.498s] -- Searching for dependencies of sdformat12
+[1.503s] -- Checking for module 'tinyxml2'
+[1.521s] --   Found tinyxml2, version 9.0.0
+[1.564s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.565s] -- Searching for dependencies of ignition-math6
+[1.569s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.569s] -- Searching for dependencies of ignition-utils1
+[1.573s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.573s] -- Searching for dependencies of ignition-plugin1
+[1.574s] -- Searching for <ignition-plugin1> component [loader]
+[1.577s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.578s] -- Searching for dependencies of ignition-plugin1-loader
+[1.579s] -- Searching for <ignition-plugin1> component [register]
+[1.583s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.583s] -- Searching for dependencies of ignition-plugin1-register
+[1.586s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.586s] -- Searching for dependencies of ignition-transport11
+[1.610s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.623s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.628s] -- Checking for module 'libzmq >= 4'
+[1.643s] --   Found libzmq , version 4.3.4
+[1.682s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.689s] -- Checking for module 'uuid'
+[1.706s] --   Found uuid, version 2.37.2
+[1.744s] -- Found UUID: TRUE  
+[1.744s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.745s] -- Searching for dependencies of ignition-utils1
+[1.745s] -- Searching for <ignition-utils1> component [cli]
+[1.748s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.748s] -- Searching for dependencies of ignition-utils1-cli
+[1.751s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.751s] -- Searching for dependencies of ignition-msgs8
+[1.767s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.768s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.778s] -- Searching for <ignition-transport11> component [log]
+[1.780s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[1.780s] -- Searching for dependencies of ignition-transport11-log
+[1.781s] -- Searching for <ignition-transport11> component [parameters]
+[1.783s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[1.784s] -- Searching for dependencies of ignition-transport11-parameters
+[1.785s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.787s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.787s] -- Searching for dependencies of ignition-common4
+[1.787s] -- Looking for dlfcn.h - found
+[1.788s] -- Looking for libdl - found
+[1.790s] -- Found DL: TRUE  
+[1.801s] -- Searching for <ignition-common4> component [profiler]
+[1.804s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.805s] -- Searching for dependencies of ignition-common4-profiler
+[1.805s] -- Searching for <ignition-common4> component [events]
+[1.809s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.810s] -- Searching for dependencies of ignition-common4-events
+[1.810s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.811s] -- Searching for <ignition-common4> component [av]
+[1.815s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.815s] -- Searching for dependencies of ignition-common4-av
+[1.822s] -- Checking for module 'libswscale'
+[1.837s] --   Found libswscale, version 5.9.100
+[1.879s] -- Found SWSCALE: TRUE  
+[1.885s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.904s] --   Found libavdevice , version 58.13.100
+[1.946s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.952s] -- Checking for module 'libavformat'
+[1.971s] --   Found libavformat, version 58.76.100
+[2.010s] -- Found AVFORMAT: TRUE  
+[2.018s] -- Checking for module 'libavcodec'
+[2.034s] --   Found libavcodec, version 58.134.100
+[2.076s] -- Found AVCODEC: TRUE  
+[2.082s] -- Checking for module 'libavutil'
+[2.099s] --   Found libavutil, version 56.70.100
+[2.136s] -- Found AVUTIL: TRUE  
+[2.139s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[2.139s] -- Searching for dependencies of ignition-fuel_tools7
+[2.225s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.233s] -- Checking for module 'jsoncpp'
+[2.251s] --   Found jsoncpp, version 1.9.5
+[2.289s] -- Found JSONCPP: TRUE  
+[2.296s] -- Checking for module 'libzip'
+[2.314s] --   Found libzip, version 1.7.3
+[2.349s] -- Found ZIP: TRUE  
+[2.350s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.350s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.350s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.353s] -- Looking for ignition-gui6 -- found version 6.8.0
+[2.353s] -- Searching for dependencies of ignition-gui6
+[2.376s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.376s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.377s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.377s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.379s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.379s] -- Searching for dependencies of ignition-rendering6
+[2.380s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.380s] -- Searching for dependencies of ignition-math6
+[2.380s] -- Searching for <ignition-math6> component [eigen3]
+[2.382s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[2.383s] -- Searching for dependencies of ignition-math6-eigen3
+[2.389s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.389s] -- Searching for dependencies of ignition-common4
+[2.390s] -- Looking for dlfcn.h - found
+[2.390s] -- Looking for libdl - found
+[2.401s] -- Searching for <ignition-common4> component [graphics]
+[2.404s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[2.405s] -- Searching for dependencies of ignition-common4-graphics
+[2.405s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.406s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.407s] -- Searching for <ignition-common4> component [events]
+[2.408s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.408s] -- Searching for dependencies of ignition-plugin1
+[2.408s] -- Searching for <ignition-plugin1> component [all]
+[2.410s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[2.411s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.413s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.432s] -- Looking for ignition-physics5 -- found version 5.3.2
+[2.433s] -- Searching for dependencies of ignition-physics5
+[2.433s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.433s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.433s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.435s] -- Searching for <ignition-physics5> component [heightmap]
+[2.437s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[2.437s] -- Searching for dependencies of ignition-physics5-heightmap
+[2.437s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.437s] -- Searching for <ignition-physics5> component [mesh]
+[2.439s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[2.440s] -- Searching for dependencies of ignition-physics5-mesh
+[2.440s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.441s] -- Searching for <ignition-physics5> component [sdf]
+[2.442s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[2.443s] -- Searching for dependencies of ignition-physics5-sdf
+[2.443s] -- Looking for sdformat12 -- found version 12.8.0
+[2.446s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.447s] -- Searching for dependencies of ignition-sensors6
+[2.463s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.464s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.464s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.465s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.465s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.466s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.466s] -- Looking for sdformat12 -- found version 12.8.0
+[2.467s] -- Searching for <ignition-sensors6> component [air_pressure]
+[2.469s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[2.469s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[2.470s] -- Searching for <ignition-sensors6> component [altimeter]
+[2.472s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[2.472s] -- Searching for dependencies of ignition-sensors6-altimeter
+[2.472s] -- Searching for <ignition-sensors6> component [imu]
+[2.474s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[2.475s] -- Searching for dependencies of ignition-sensors6-imu
+[2.475s] -- Searching for <ignition-sensors6> component [force_torque]
+[2.477s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[2.478s] -- Searching for dependencies of ignition-sensors6-force_torque
+[2.478s] -- Searching for <ignition-sensors6> component [logical_camera]
+[2.480s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[2.480s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[2.481s] -- Searching for <ignition-sensors6> component [magnetometer]
+[2.483s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[2.483s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[2.484s] -- Searching for <ignition-sensors6> component [navsat]
+[2.486s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[2.486s] -- Searching for dependencies of ignition-sensors6-navsat
+[2.487s] -- Searching for <ignition-sensors6> component [rendering]
+[2.489s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[2.489s] -- Searching for dependencies of ignition-sensors6-rendering
+[2.490s] -- Searching for <ignition-sensors6> component [lidar]
+[2.492s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[2.492s] -- Searching for dependencies of ignition-sensors6-lidar
+[2.492s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.493s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[2.495s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[2.495s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[2.496s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.496s] -- Searching for <ignition-sensors6> component [camera]
+[2.498s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[2.499s] -- Searching for dependencies of ignition-sensors6-camera
+[2.499s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.499s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[2.501s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[2.502s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[2.502s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.504s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[2.505s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.505s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.508s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[2.508s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.508s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.509s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.512s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[2.513s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.513s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.514s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.516s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[2.516s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.516s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.517s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.518s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.520s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.540s] -- Compiling against Gazebo fortress
+[2.540s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.672s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.783s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.785s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.786s] -- Configured cppcheck include dirs: /home/srl/lbr-stack/gz_ros2_control/gz_ros2_control/include
+[2.786s] -- Configured cppcheck exclude dirs and/or files: 
+[2.787s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.788s] -- Configured cpplint exclude dirs and/or files: 
+[2.789s] -- Added test 'lint_cmake' to check CMake code style
+[2.791s] -- Added test 'uncrustify' to check C / C++ code style
+[2.791s] -- Configured uncrustify additional arguments: 
+[2.792s] -- Added test 'xmllint' to check XML markup files
+[2.798s] -- Configuring done
+[2.908s] -- Generating done
+[2.927s] -- Build files have been written to: /home/srl/lbr-stack/build/gz_ros2_control
+[2.949s] Invoked command in '/home/srl/lbr-stack/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/gz_ros2_control/gz_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/gz_ros2_control
+[2.952s] Invoking command in '/home/srl/lbr-stack/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/gz_ros2_control -- -j20 -l20
+[3.019s] [ 16%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[3.023s] [ 33%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[3.023s] [ 50%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[23.084s] [ 66%] [32m[1mLinking CXX shared library libgz_ros2_control-system.so[0m
+[23.674s] [ 66%] Built target gz_ros2_control-system
+[24.380s] [ 83%] [32m[1mLinking CXX shared library libign_ros2_control-system.so[0m
+[24.800s] [100%] [32m[1mLinking CXX shared library libgz_hardware_plugins.so[0m
+[24.945s] [100%] Built target ign_ros2_control-system
+[25.240s] [100%] Built target gz_hardware_plugins
+[25.248s] Invoked command in '/home/srl/lbr-stack/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/gz_ros2_control -- -j20 -l20
+[25.251s] Invoking command in '/home/srl/lbr-stack/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/gz_ros2_control
+[25.257s] -- Install configuration: ""
+[25.257s] -- Execute custom install script
+[25.258s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+[25.265s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control_plugin.hpp
+[25.271s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/include/gz_ros2_control/gz_system.hpp
+[25.279s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp
+[25.285s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+[25.292s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+[25.300s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+[25.306s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/lib/libign_ros2_control-system.so
+[25.313s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control//gz_hardware_plugins.xml
+[25.319s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+[25.326s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+[25.333s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+[25.340s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+[25.346s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+[25.354s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+[25.362s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+[25.370s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+[25.376s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+[25.382s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+[25.391s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+[25.402s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+[25.409s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+[25.416s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.425s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[25.432s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+[25.442s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+[25.451s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/package.xml
+[25.462s] Invoked command in '/home/srl/lbr-stack/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/gz_ros2_control

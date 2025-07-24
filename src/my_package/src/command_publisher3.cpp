@@ -91,22 +91,6 @@ private:
     }
             
         publisher_->publish(twist_msg);
-
-        // // Contrôle articulation 4 via boutons LB (index 4) et RB (index 5)
-        // double velocity = 0.0;
-
-        // if (last_joy_msg_->axes[2]<0) { // LT enfoncé → décrémenter
-        //     velocity = speed *last_joy_msg_->axes[2];
-
-        // }
-        // if (last_joy_msg_->axes[5]<0) { // RT enfoncé → incrémenter
-        //     velocity = - speed *last_joy_msg_->axes[5];
-        // }
-
-
-        // joint_msg.joint_names.push_back("lbr_A4");
-        // joint_msg.velocities.push_back(velocity);
-        // publisher_2->publish(joint_msg);
         
 
         

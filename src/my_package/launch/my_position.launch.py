@@ -1,5 +1,4 @@
-# CONTROLING THE ROBOT EFFECTOR WITH A XBOX CONTROLER
-# 
+# Launch this to control the position of the hardware robot. Launch position_control_gui.py as well to have a nice interface to control the position and the speed of the robot.
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, RegisterEventHandler
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
@@ -71,20 +70,6 @@ def generate_launch_description():
 
     nodes.append(launch_rviz)
 
- 
-
-
-    # # Noeud pour envoyer des commandes
-    # position_node = Node(
-    #     package='my_package',
-    #     executable='position_control',
-    # )
-
-    # # Description du robot
-    # # robot_description = LBRDescriptionMixin.param_robot_description(mode="mock")
-    # nodes.append(position_node)
-
-    
 
     # Retourner la LaunchDescription avec tous les noeuds et inclusions
     return LaunchDescription(nodes)

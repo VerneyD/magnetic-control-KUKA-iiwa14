@@ -1,0 +1,385 @@
+[0.051s] Invoking command in '/home/srl/lbr-stack/build/ros_ign_interfaces': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srl/lbr-stack/build/ros_ign_interfaces -- -j20 -l20
+[0.124s] [  0%] Built target ros_ign_interfaces__cpp
+[0.126s] [ 12%] Built target ros_ign_interfaces__rosidl_generator_c
+[0.127s] [ 12%] Built target ament_cmake_python_symlink_ros_ign_interfaces
+[0.149s] [ 24%] Built target ros_ign_interfaces__rosidl_typesupport_cpp
+[0.155s] [ 39%] Built target ros_ign_interfaces__rosidl_typesupport_introspection_c
+[0.156s] [ 48%] Built target ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.158s] [ 60%] Built target ros_ign_interfaces__rosidl_typesupport_introspection_cpp
+[0.163s] [ 84%] Built target ros_ign_interfaces__rosidl_typesupport_fastrtps_c
+[0.163s] [ 84%] Built target ros_ign_interfaces__rosidl_typesupport_c
+[0.193s] [ 84%] Built target ros_ign_interfaces
+[0.231s] [ 85%] Built target ros_ign_interfaces__py
+[0.293s] [ 96%] Built target ros_ign_interfaces__rosidl_generator_py
+[0.314s] [ 97%] Built target ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.314s] [ 99%] Built target ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.314s] [100%] Built target ros_ign_interfaces__rosidl_typesupport_c__pyext
+[0.393s] running egg_info
+[0.394s] writing ros_ign_interfaces.egg-info/PKG-INFO
+[0.394s] writing dependency_links to ros_ign_interfaces.egg-info/dependency_links.txt
+[0.395s] writing top-level names to ros_ign_interfaces.egg-info/top_level.txt
+[0.397s] reading manifest file 'ros_ign_interfaces.egg-info/SOURCES.txt'
+[0.397s] writing manifest file 'ros_ign_interfaces.egg-info/SOURCES.txt'
+[0.426s] [100%] Built target ament_cmake_python_build_ros_ign_interfaces_egg
+[0.468s] Invoked command in '/home/srl/lbr-stack/build/ros_ign_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srl/lbr-stack/build/ros_ign_interfaces -- -j20 -l20
+[0.469s] Invoking command in '/home/srl/lbr-stack/build/ros_ign_interfaces': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/srl/lbr-stack/build/ros_ign_interfaces
+[0.485s] -- Install configuration: ""
+[0.485s] -- Execute custom install script
+[0.486s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_ign_interfaces
+[0.486s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contact.h
+[0.486s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contacts.h
+[0.487s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__functions.h
+[0.487s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__struct.h
+[0.489s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__type_support.h
+[0.490s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__functions.h
+[0.491s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__struct.h
+[0.491s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__type_support.h
+[0.491s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__functions.h
+[0.491s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__struct.h
+[0.491s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__type_support.h
+[0.492s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__functions.h
+[0.492s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__struct.h
+[0.492s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__type_support.h
+[0.492s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__functions.h
+[0.492s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__struct.h
+[0.492s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__type_support.h
+[0.492s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__functions.h
+[0.493s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__struct.h
+[0.494s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__type_support.h
+[0.494s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__functions.h
+[0.494s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__struct.h
+[0.494s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__type_support.h
+[0.494s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__functions.h
+[0.495s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__struct.h
+[0.495s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__type_support.h
+[0.495s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__functions.h
+[0.495s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__struct.h
+[0.495s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__type_support.h
+[0.495s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__functions.h
+[0.495s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__struct.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__type_support.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__functions.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__struct.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__type_support.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__functions.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__struct.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__type_support.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity.h
+[0.496s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity_factory.h
+[0.497s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/gui_camera.h
+[0.497s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/joint_wrench.h
+[0.497s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/light.h
+[0.497s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.497s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/string_vec.h
+[0.497s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/track_visual.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/video_record.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_control.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_reset.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/control_world.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/delete_entity.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__functions.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__struct.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__type_support.h
+[0.498s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__functions.h
+[0.499s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__struct.h
+[0.499s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__type_support.h
+[0.499s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__functions.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__struct.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__type_support.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__functions.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__struct.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__type_support.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/set_entity_pose.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/spawn_entity.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/library_path.sh
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/library_path.dsv
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_c.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[0.500s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_c.h
+[0.501s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_c.h
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contact.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contacts.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__builder.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__struct.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__traits.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__type_support.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__builder.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__struct.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__traits.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__type_support.hpp
+[0.502s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__builder.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__struct.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__traits.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__type_support.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__builder.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__struct.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__traits.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__type_support.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__builder.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__struct.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__traits.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__type_support.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__builder.hpp
+[0.503s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__struct.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__traits.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__type_support.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__builder.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__struct.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__traits.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__type_support.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__builder.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__struct.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__traits.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__type_support.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__builder.hpp
+[0.504s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__struct.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__traits.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__type_support.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__builder.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__struct.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__traits.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__type_support.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__builder.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__struct.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__traits.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__type_support.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__builder.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__struct.hpp
+[0.505s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__traits.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__type_support.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity_factory.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/gui_camera.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/joint_wrench.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/light.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/string_vec.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/track_visual.hpp
+[0.506s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/video_record.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_control.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_reset.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/control_world.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/delete_entity.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__builder.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__struct.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__traits.hpp
+[0.507s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__type_support.hpp
+[0.508s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__builder.hpp
+[0.508s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__struct.hpp
+[0.508s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__traits.hpp
+[0.508s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__type_support.hpp
+[0.508s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__builder.hpp
+[0.508s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__struct.hpp
+[0.508s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__traits.hpp
+[0.509s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__type_support.hpp
+[0.509s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__builder.hpp
+[0.509s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__struct.hpp
+[0.509s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__traits.hpp
+[0.509s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__type_support.hpp
+[0.509s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/set_entity_pose.hpp
+[0.510s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/spawn_entity.hpp
+[0.511s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp
+[0.511s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[0.511s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[0.512s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.512s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[0.512s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[0.514s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[0.515s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_introspection_c.h
+[0.515s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[0.515s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[0.515s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_c.h
+[0.515s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_c.h
+[0.516s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_c.h
+[0.516s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h
+[0.516s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_c.h
+[0.516s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_c.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_c.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_c.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_c.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_c.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h
+[0.517s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_c.h
+[0.518s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_cpp.hpp
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_cpp.hpp
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_cpp.hpp
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_cpp.hpp
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/pythonpath.sh
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/pythonpath.dsv
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.20-py3.10.egg-info/PKG-INFO
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.20-py3.10.egg-info/SOURCES.txt
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.20-py3.10.egg-info/dependency_links.txt
+[0.522s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.20-py3.10.egg-info/top_level.txt
+[0.524s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/__init__.py
+[0.524s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_c.c
+[0.524s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.525s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.525s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/libros_ign_interfaces__rosidl_generator_py.so
+[0.525s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/__init__.py
+[0.525s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contact.py
+[0.525s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contact_s.c
+[0.525s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contacts.py
+[0.525s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contacts_s.c
+[0.526s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity.py
+[0.526s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity_factory.py
+[0.526s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity_factory_s.c
+[0.526s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity_s.c
+[0.526s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_gui_camera.py
+[0.526s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_gui_camera_s.c
+[0.527s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_joint_wrench.py
+[0.527s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_joint_wrench_s.c
+[0.527s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_light.py
+[0.527s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_light_s.c
+[0.527s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_string_vec.py
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_string_vec_s.c
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_track_visual.py
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_track_visual_s.c
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_video_record.py
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_video_record_s.c
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_control.py
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_control_s.c
+[0.528s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_reset.py
+[0.529s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_reset_s.c
+[0.529s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.529s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.531s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.531s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/__init__.py
+[0.531s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_control_world.py
+[0.531s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_control_world_s.c
+[0.531s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_delete_entity.py
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_delete_entity_s.c
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_set_entity_pose.py
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_set_entity_pose_s.c
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_spawn_entity.py
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_spawn_entity_s.c
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.532s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.535s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contact.idl
+[0.535s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contacts.idl
+[0.536s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Entity.idl
+[0.536s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/EntityFactory.idl
+[0.536s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/GuiCamera.idl
+[0.536s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/JointWrench.idl
+[0.536s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Light.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/StringVec.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/TrackVisual.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/VideoRecord.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldControl.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldReset.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity.idl
+[0.537s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose.idl
+[0.538s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity.idl
+[0.538s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contact.msg
+[0.538s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contacts.msg
+[0.538s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Entity.msg
+[0.538s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/EntityFactory.msg
+[0.539s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/GuiCamera.msg
+[0.539s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/JointWrench.msg
+[0.539s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Light.msg
+[0.539s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/StringVec.msg
+[0.539s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/TrackVisual.msg
+[0.539s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/VideoRecord.msg
+[0.540s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldControl.msg
+[0.540s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldReset.msg
+[0.540s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld.srv
+[0.541s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld_Request.msg
+[0.541s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld_Response.msg
+[0.541s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity.srv
+[0.542s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity_Request.msg
+[0.542s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity_Response.msg
+[0.542s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose.srv
+[0.542s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose_Request.msg
+[0.542s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose_Response.msg
+[0.543s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity.srv
+[0.543s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity_Request.msg
+[0.543s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity_Response.msg
+[0.543s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_ign_interfaces
+[0.543s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_ign_interfaces
+[0.544s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/ament_prefix_path.sh
+[0.544s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/ament_prefix_path.dsv
+[0.544s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/path.sh
+[0.544s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/path.dsv
+[0.544s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.bash
+[0.544s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.sh
+[0.544s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.zsh
+[0.545s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.dsv
+[0.545s] -- Symlinking: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/package.dsv
+[0.582s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ament_index/resource_index/packages/ros_ign_interfaces
+[0.582s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.582s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfacesConfig.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfacesConfig-version.cmake
+[0.583s] -- Up-to-date symlink: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/package.xml
+[0.588s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_generator_c.so
+[0.588s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.588s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.588s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_introspection_c.so
+[0.588s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_c.so
+[0.588s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.588s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_cpp.so
+[0.628s] Listing '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces'...
+[0.628s] Listing '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg'...
+[0.628s] Listing '/home/srl/lbr-stack/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv'...
+[0.634s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_generator_py.so
+[0.634s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_cExport.cmake
+[0.634s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.634s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.634s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.634s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_cppExport.cmake
+[0.634s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.635s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.635s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.635s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.635s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cExport.cmake
+[0.635s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.635s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.636s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.636s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cppExport.cmake
+[0.636s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.636s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_pyExport.cmake
+[0.636s] -- Up-to-date: /home/srl/lbr-stack/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.665s] Invoked command in '/home/srl/lbr-stack/build/ros_ign_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/home/srl/lbr-stack/install/fri_client_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/srl/lbr-stack/build/ros_ign_interfaces

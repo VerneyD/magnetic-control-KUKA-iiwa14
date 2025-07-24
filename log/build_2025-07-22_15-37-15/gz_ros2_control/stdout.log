@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m

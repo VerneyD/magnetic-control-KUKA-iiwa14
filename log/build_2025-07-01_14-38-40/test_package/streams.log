@@ -1,0 +1,10 @@
+[0.283s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.355s] [ 50%] [32mBuilding CXX object CMakeFiles/my_box_ign_plugin.dir/src/my_box_ign_plugin.cpp.o[0m
+[4.204s] [01m[K/home/srl/lbr-stack/src/test_package/src/my_box_ign_plugin.cpp:[m[K In member function ‘[01m[Kvoid my_plugins::MyBoxIgnPlugin::ApplySpringForce(ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[4.204s] [01m[K/home/srl/lbr-stack/src/test_package/src/my_box_ign_plugin.cpp:99:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[4.204s]    99 |     ignition::math::Vector3d magneticField = u0 / [01;31m[K;[m[K
+[4.204s]       |                                                   [01;31m[K^[m[K
+[5.029s] gmake[2]: *** [CMakeFiles/my_box_ign_plugin.dir/build.make:76: CMakeFiles/my_box_ign_plugin.dir/src/my_box_ign_plugin.cpp.o] Error 1
+[5.029s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_box_ign_plugin.dir/all] Error 2
+[5.029s] gmake: *** [Makefile:146: all] Error 2
+[5.031s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

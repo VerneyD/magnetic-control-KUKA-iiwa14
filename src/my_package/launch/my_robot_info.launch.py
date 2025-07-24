@@ -1,5 +1,4 @@
-# CONTROLING THE ROBOT EFFECTOR WITH A XBOX CONTROLER
-# 
+# This program gives the position of the end effector and needs to be launched with other programs
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, RegisterEventHandler
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution

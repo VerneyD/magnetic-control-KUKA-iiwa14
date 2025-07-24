@@ -1,0 +1,7 @@
+[01m[K/home/srl/lbr-stack/src/test_package/src/my_box_ign_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::MyBoxIgnPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/srl/lbr-stack/src/test_package/src/my_box_ign_plugin.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_info[m[K’ was not declared in this scope
+   74 |     if ([01;31m[K_info[m[K.paused)
+      |         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_box_ign_plugin.dir/build.make:76: CMakeFiles/my_box_ign_plugin.dir/src/my_box_ign_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/my_box_ign_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

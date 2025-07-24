@@ -1,0 +1,32 @@
+[0.202s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.256s] [ 50%] Built target my_box_ign_plugin
+[0.258s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[3.746s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RealRobotSyncPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’:
+[3.746s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:25:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kecm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.746s]    25 |     [01;35m[Kignition::gazebo::EntityComponentManager &ecm[m[K,
+[3.746s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.215s] [100%] [32m[1mLinking CXX shared library librobot_movement_plugin.so[0m
+[8.633s] [100%] Built target robot_movement_plugin
+[8.642s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[8.643s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/test_package
+[8.648s] -- Install configuration: ""
+[8.648s] -- Execute custom install script
+[8.648s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/lib/libmy_box_ign_plugin.so
+[8.648s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/lib/librobot_movement_plugin.so
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/ament_index/resource_index/package_run_dependencies/test_package
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/ament_index/resource_index/parent_prefix_path/test_package
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/environment/ament_prefix_path.sh
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/environment/ament_prefix_path.dsv
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/environment/path.sh
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/environment/path.dsv
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/local_setup.bash
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/local_setup.sh
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/local_setup.zsh
+[8.649s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/local_setup.dsv
+[8.649s] -- Symlinking: /home/srl/lbr-stack/install/test_package/share/test_package/package.dsv
+[8.656s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/ament_index/resource_index/packages/test_package
+[8.656s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/cmake/test_packageConfig.cmake
+[8.656s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/cmake/test_packageConfig-version.cmake
+[8.656s] -- Up-to-date symlink: /home/srl/lbr-stack/install/test_package/share/test_package/package.xml
+[8.658s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/test_package

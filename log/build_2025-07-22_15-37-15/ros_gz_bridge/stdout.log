@@ -1,0 +1,43 @@
+[  2%] Built target gtest
+[  4%] Built target bridge_node
+[  6%] Built target gtest_main
+[  7%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/gz_test_msg.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces_TEST.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_gz_to_ros.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_ros_to_gz.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/factory_interface.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factory_interface.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/ros_gz_bridge.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/actuator_msgs.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/builtin_interfaces.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/geometry_msgs.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/gps_msgs.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/nav_msgs.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/rosgraph_msgs.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/rcl_interfaces.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/sensor_msgs.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/std_msgs.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/tf2_msgs.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/trajectory_msgs.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/vision_msgs.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/get_factory.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/builtin_interfaces.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/actuator_msgs.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable test_rcl_interfaces[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/geometry_msgs.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/gps_msgs.cpp.o[0m
+[ 39%] Built target test_rcl_interfaces
+[ 40%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/nav_msgs.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rcl_interfaces.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rosgraph_msgs.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/sensor_msgs.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/std_msgs.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/tf2_msgs.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/trajectory_msgs.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/vision_msgs.cpp.o[0m

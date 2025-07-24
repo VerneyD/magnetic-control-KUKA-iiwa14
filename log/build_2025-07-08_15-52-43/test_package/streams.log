@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target my_box_ign_plugin[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.072s] [ 25%] [32mBuilding CXX object CMakeFiles/my_box_ign_plugin.dir/src/my_box_ign_plugin.cpp.o[0m
+[0.075s] [ 75%] Built target robot_movement_plugin
+[2.513s] [01m[K/home/srl/lbr-stack/src/test_package/src/my_box_ign_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::MyBoxIgnPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[2.513s] [01m[K/home/srl/lbr-stack/src/test_package/src/my_box_ign_plugin.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_info[m[K’ was not declared in this scope
+[2.513s]    74 |     if ([01;31m[K_info[m[K.paused)
+[2.513s]       |         [01;31m[K^~~~~[m[K
+[3.307s] gmake[2]: *** [CMakeFiles/my_box_ign_plugin.dir/build.make:76: CMakeFiles/my_box_ign_plugin.dir/src/my_box_ign_plugin.cpp.o] Error 1
+[3.307s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/my_box_ign_plugin.dir/all] Error 2
+[3.308s] gmake: *** [Makefile:146: all] Error 2
+[3.310s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

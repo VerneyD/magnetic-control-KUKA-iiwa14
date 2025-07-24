@@ -1,4 +1,4 @@
-
+# This program, launched with my.launch.py, will reset the robot's joints values to a certain values defined in reset_position.cpp
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, RegisterEventHandler
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution

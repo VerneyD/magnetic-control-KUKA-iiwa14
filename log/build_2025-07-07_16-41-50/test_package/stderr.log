@@ -1,0 +1,7 @@
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kignition/gazebo/components/JointPositionCmd.hh: No such file or directory
+    6 | #include [01;31m[K<ignition/gazebo/components/JointPositionCmd.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

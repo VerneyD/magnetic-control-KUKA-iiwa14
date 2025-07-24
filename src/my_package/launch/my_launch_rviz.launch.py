@@ -1,5 +1,4 @@
-# CONTROLING THE ROBOT EFFECTOR WITH A XBOX CONTROLER
-# 
+# Launch simulation on Rviz with joint control.
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, RegisterEventHandler
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
@@ -48,11 +47,11 @@ def generate_launch_description():
     nodes.append(launch_simulation)
 
     
-    end_effector_position_node = Node(
-        package='my_package',
-        executable='end_effector_position_node',
-    )
-    nodes.append(end_effector_position_node)
+    # end_effector_position_node = Node(
+    #     package='my_package',
+    #     executable='end_effector_position_node',
+    # )
+    # nodes.append(end_effector_position_node)
 
 
 

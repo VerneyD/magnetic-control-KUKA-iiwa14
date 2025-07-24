@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target end_effector_position_node[0m
+[ 12%] Built target robot_info
+[ 31%] Built target reset_position
+[ 37%] Built target command_publisher3
+[ 50%] Built target command_publisher2
+[ 62%] Built target position_control
+[ 75%] Built target command_listener
+[ 87%] Built target robot_info_controller
+[ 93%] [32mBuilding CXX object CMakeFiles/end_effector_position_node.dir/src/end_effector_position_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable end_effector_position_node[0m
+[100%] Built target end_effector_position_node

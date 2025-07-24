@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:60 (ignition_add_plugin):
+  Unknown CMake command "ignition_add_plugin".
+
+[0m

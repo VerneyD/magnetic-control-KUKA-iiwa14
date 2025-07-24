@@ -1,0 +1,14 @@
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RealRobotEffortPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:73:26:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPositionCommandFeature[m[K’ is not a member of ‘[01m[Kignition::physics[m[K’; did you mean ‘[01m[KSetJointPositionLimitsFeature[m[K’?
+   73 |       ignition::physics::[01;31m[KJointPositionCommandFeature[m[K>::From(ecm);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[KSetJointPositionLimitsFeature[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:73:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   73 |       ignition::physics::JointPositionCommandFeature[01;31m[K>[m[K::From(ecm);
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:90:68:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K>[m[K’ token
+   90 |       auto joint = physicsEngine->CastTo<ignition::physics::Joint3d[01;31m[K>[m[K(physicsEngine->GetJoint(jointEntity));
+      |                                                                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

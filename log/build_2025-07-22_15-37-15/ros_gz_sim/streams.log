@@ -1,0 +1,13 @@
+[0.052s] Invoking command in '/home/srl/lbr-stack/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/ros_gz_sim -- -j20 -l20
+[0.371s] [ 20%] Built target gtest_main
+[0.372s] [ 40%] Built target gtest
+[0.372s] [ 60%] Built target ros_gz_sim
+[0.372s] [ 70%] [32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o[0m
+[0.372s] [ 90%] Built target test_stopwatch
+[25.845s] gmake[2]: *** wait: No child processes.  Stop.
+[25.845s] gmake[2]: *** Waiting for unfinished jobs....
+[25.845s] gmake[2]: *** wait: No child processes.  Stop.
+[25.845s] gmake[1]: *** wait: No child processes.  Stop.
+[25.845s] gmake[1]: *** Waiting for unfinished jobs....
+[25.845s] gmake[1]: *** wait: No child processes.  Stop.
+[25.845s] gmake: *** [Makefile:146: all] Error 2

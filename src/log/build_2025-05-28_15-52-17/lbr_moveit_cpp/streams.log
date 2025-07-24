@@ -1,0 +1,52 @@
+[0.153s] Invoking command in '/home/srl/lbr-stack/src/build/lbr_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py /usr/bin/cmake --build /home/srl/lbr-stack/src/build/lbr_moveit_cpp -- -j20 -l20
+[0.183s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.258s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.265s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.303s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.306s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.313s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.375s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.390s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.529s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.552s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.584s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.587s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.728s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.753s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.778s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.803s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.890s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.919s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.932s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.000s] -- Configuring done
+[1.029s] -- Generating done
+[1.038s] -- Build files have been written to: /home/srl/lbr-stack/src/build/lbr_moveit_cpp
+[1.063s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[1.079s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[6.446s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[6.746s] [100%] Built target hello_moveit
+[6.756s] Invoked command in '/home/srl/lbr-stack/src/build/lbr_moveit_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py /usr/bin/cmake --build /home/srl/lbr-stack/src/build/lbr_moveit_cpp -- -j20 -l20
+[6.757s] Invoking command in '/home/srl/lbr-stack/src/build/lbr_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py /usr/bin/cmake --install /home/srl/lbr-stack/src/build/lbr_moveit_cpp
+[6.762s] -- Install configuration: "Release"
+[6.763s] -- Execute custom install script
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/launch/hello_moveit.launch.py
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/lib/lbr_moveit_cpp/hello_moveit
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/ament_index/resource_index/package_run_dependencies/lbr_moveit_cpp
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/ament_index/resource_index/parent_prefix_path/lbr_moveit_cpp
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/environment/ament_prefix_path.sh
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/environment/ament_prefix_path.dsv
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/environment/path.sh
+[6.763s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/environment/path.dsv
+[6.764s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/local_setup.bash
+[6.764s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/local_setup.sh
+[6.764s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/local_setup.zsh
+[6.764s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/local_setup.dsv
+[6.764s] -- Symlinking: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/package.dsv
+[6.770s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/ament_index/resource_index/packages/lbr_moveit_cpp
+[6.770s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/cmake/lbr_moveit_cppConfig.cmake
+[6.770s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/cmake/lbr_moveit_cppConfig-version.cmake
+[6.770s] -- Up-to-date symlink: /home/srl/lbr-stack/src/install/lbr_moveit_cpp/share/lbr_moveit_cpp/package.xml
+[6.771s] Invoked command in '/home/srl/lbr-stack/src/build/lbr_moveit_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py /usr/bin/cmake --install /home/srl/lbr-stack/src/build/lbr_moveit_cpp

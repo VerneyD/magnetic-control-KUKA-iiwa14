@@ -1,0 +1,325 @@
+[0.013s] Invoking command in '/home/srl/lbr-stack/build/lbr_fri_idl': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/srl/lbr-stack/src/lbr_fri_idl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/lbr_fri_idl
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.300s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.491s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.552s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.598s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.634s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.641s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.651s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.696s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.015s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.017s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.019s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.022s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.523s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.525s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.554s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.554s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.554s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.554s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.575s] -- Found PythonExtra: .so  
+[1.632s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.636s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.644s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.648s] -- Looking for pthread.h
+[1.722s] -- Looking for pthread.h - found
+[1.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.817s] -- Found Threads: TRUE  
+[1.825s] -- Configuring done
+[1.887s] -- Generating done
+[1.908s] -- Build files have been written to: /home/srl/lbr-stack/build/lbr_fri_idl
+[1.920s] Invoked command in '/home/srl/lbr-stack/build/lbr_fri_idl' returned '0': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/srl/lbr-stack/src/lbr_fri_idl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/lbr_fri_idl
+[1.921s] Invoking command in '/home/srl/lbr-stack/build/lbr_fri_idl': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_fri_idl -- -j20 -l20
+[1.973s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.985s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.985s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.985s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.996s] [  5%] Built target ament_cmake_python_symlink_lbr_fri_idl
+[2.336s] running egg_info
+[2.337s] creating lbr_fri_idl.egg-info
+[2.337s] writing lbr_fri_idl.egg-info/PKG-INFO
+[2.337s] writing dependency_links to lbr_fri_idl.egg-info/dependency_links.txt
+[2.338s] writing top-level names to lbr_fri_idl.egg-info/top_level.txt
+[2.338s] writing manifest file 'lbr_fri_idl.egg-info/SOURCES.txt'
+[2.341s] reading manifest file 'lbr_fri_idl.egg-info/SOURCES.txt'
+[2.342s] writing manifest file 'lbr_fri_idl.egg-info/SOURCES.txt'
+[2.381s] [  5%] Built target ament_cmake_python_build_lbr_fri_idl_egg
+[2.931s] [  7%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.979s] [  7%] Built target gtest_main
+[3.174s] [  7%] Built target lbr_fri_idl__cpp
+[3.203s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.207s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.208s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.237s] [ 13%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_c.dir/rosidl_generator_c/lbr_fri_idl/msg/detail/lbr_command__functions.c.o[0m
+[3.243s] [ 15%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_c.dir/rosidl_generator_c/lbr_fri_idl/msg/detail/lbr_wrench_command__functions.c.o[0m
+[3.245s] [ 18%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_c.dir/rosidl_generator_c/lbr_fri_idl/msg/detail/lbr_torque_command__functions.c.o[0m
+[3.246s] [ 15%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_c.dir/rosidl_generator_c/lbr_fri_idl/msg/detail/lbr_joint_position_command__functions.c.o[0m
+[3.250s] [ 18%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_c.dir/rosidl_generator_c/lbr_fri_idl/msg/detail/lbr_state__functions.c.o[0m
+[3.536s] [ 20%] [32m[1mLinking C shared library liblbr_fri_idl__rosidl_generator_c.so[0m
+[3.706s] [ 20%] Built target lbr_fri_idl__rosidl_generator_c
+[3.738s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.739s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.755s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.337s] [ 27%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lbr_fri_idl/msg/lbr_joint_position_command__type_support.cpp.o[0m
+[4.337s] [ 27%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lbr_fri_idl/msg/lbr_command__type_support.cpp.o[0m
+[4.338s] [ 28%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lbr_fri_idl/msg/lbr_state__type_support.cpp.o[0m
+[4.345s] [ 30%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lbr_fri_idl/msg/lbr_torque_command__type_support.cpp.o[0m
+[4.345s] [ 31%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lbr_fri_idl/msg/lbr_wrench_command__type_support.cpp.o[0m
+[4.471s] [ 34%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lbr_fri_idl/msg/detail/lbr_joint_position_command__type_support.cpp.o[0m
+[4.471s] [ 34%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lbr_fri_idl/msg/detail/lbr_state__type_support.cpp.o[0m
+[4.475s] [ 36%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lbr_fri_idl/msg/detail/lbr_command__type_support.cpp.o[0m
+[4.487s] [ 37%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lbr_fri_idl/msg/detail/lbr_torque_command__type_support.cpp.o[0m
+[4.489s] [ 39%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lbr_fri_idl/msg/detail/lbr_wrench_command__type_support.cpp.o[0m
+[4.720s] [ 40%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_c.dir/rosidl_typesupport_c/lbr_fri_idl/msg/lbr_command__type_support.cpp.o[0m
+[4.725s] [ 42%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_c.dir/rosidl_typesupport_c/lbr_fri_idl/msg/lbr_joint_position_command__type_support.cpp.o[0m
+[4.726s] [ 43%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_c.dir/rosidl_typesupport_c/lbr_fri_idl/msg/lbr_state__type_support.cpp.o[0m
+[4.729s] [ 44%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_c.dir/rosidl_typesupport_c/lbr_fri_idl/msg/lbr_torque_command__type_support.cpp.o[0m
+[4.732s] [ 46%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_c.dir/rosidl_typesupport_c/lbr_fri_idl/msg/lbr_wrench_command__type_support.cpp.o[0m
+[4.741s] [ 47%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lbr_fri_idl/msg/detail/dds_fastrtps/lbr_joint_position_command__type_support.cpp.o[0m
+[4.743s] [ 49%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lbr_fri_idl/msg/detail/dds_fastrtps/lbr_command__type_support.cpp.o[0m
+[4.819s] [ 50%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lbr_fri_idl/msg/detail/dds_fastrtps/lbr_state__type_support.cpp.o[0m
+[4.819s] [ 53%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lbr_fri_idl/msg/detail/dds_fastrtps/lbr_wrench_command__type_support.cpp.o[0m
+[4.820s] [ 53%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lbr_fri_idl/msg/detail/dds_fastrtps/lbr_torque_command__type_support.cpp.o[0m
+[4.876s] [ 55%] [32m[1mLinking CXX shared library liblbr_fri_idl__rosidl_typesupport_c.so[0m
+[4.973s] [ 55%] Built target lbr_fri_idl__rosidl_typesupport_c
+[5.059s] [ 57%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lbr_fri_idl/msg/detail/lbr_command__type_support_c.cpp.o[0m
+[5.062s] [ 57%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lbr_fri_idl/msg/detail/lbr_joint_position_command__type_support_c.cpp.o[0m
+[5.068s] [ 59%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lbr_fri_idl/msg/detail/lbr_state__type_support_c.cpp.o[0m
+[5.074s] [ 60%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lbr_fri_idl/msg/detail/lbr_torque_command__type_support_c.cpp.o[0m
+[5.079s] [ 62%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lbr_fri_idl/msg/detail/lbr_wrench_command__type_support_c.cpp.o[0m
+[5.413s] [ 63%] [32m[1mLinking CXX shared library liblbr_fri_idl__rosidl_typesupport_cpp.so[0m
+[5.509s] [ 63%] Built target lbr_fri_idl__rosidl_typesupport_cpp
+[5.957s] [ 65%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lbr_fri_idl/msg/detail/lbr_command__type_support.c.o[0m
+[5.978s] [ 66%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lbr_fri_idl/msg/detail/lbr_state__type_support.c.o[0m
+[5.984s] [ 68%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lbr_fri_idl/msg/detail/lbr_joint_position_command__type_support.c.o[0m
+[5.993s] [ 69%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lbr_fri_idl/msg/detail/lbr_torque_command__type_support.c.o[0m
+[5.993s] [ 71%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lbr_fri_idl/msg/detail/lbr_wrench_command__type_support.c.o[0m
+[6.207s] [ 72%] [32m[1mLinking C shared library liblbr_fri_idl__rosidl_typesupport_introspection_c.so[0m
+[6.232s] [ 73%] [32m[1mLinking CXX shared library liblbr_fri_idl__rosidl_typesupport_introspection_cpp.so[0m
+[6.271s] [ 75%] [32m[1mLinking CXX shared library liblbr_fri_idl__rosidl_typesupport_fastrtps_c.so[0m
+[6.279s] [ 75%] Built target lbr_fri_idl__rosidl_typesupport_introspection_c
+[6.315s] [ 75%] Built target lbr_fri_idl__rosidl_typesupport_introspection_cpp
+[6.389s] [ 75%] Built target lbr_fri_idl__rosidl_typesupport_fastrtps_c
+[6.407s] [ 76%] [32m[1mLinking CXX shared library liblbr_fri_idl__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.648s] [ 76%] Built target lbr_fri_idl__rosidl_typesupport_fastrtps_cpp
+[6.709s] [ 76%] Built target lbr_fri_idl
+[6.767s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.968s] [ 78%] Built target lbr_fri_idl__py
+[9.025s] [ 79%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_py.dir/rosidl_generator_py/lbr_fri_idl/msg/_lbr_joint_position_command_s.c.o[0m
+[9.025s] [ 81%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_py.dir/rosidl_generator_py/lbr_fri_idl/msg/_lbr_command_s.c.o[0m
+[9.033s] [ 82%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_py.dir/rosidl_generator_py/lbr_fri_idl/msg/_lbr_wrench_command_s.c.o[0m
+[9.033s] [ 84%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_py.dir/rosidl_generator_py/lbr_fri_idl/msg/_lbr_torque_command_s.c.o[0m
+[9.035s] [ 85%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_generator_py.dir/rosidl_generator_py/lbr_fri_idl/msg/_lbr_state_s.c.o[0m
+[9.506s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/lbr_fri_idl/liblbr_fri_idl__rosidl_generator_py.so[0m
+[9.615s] [ 86%] Built target lbr_fri_idl__rosidl_generator_py
+[9.667s] [ 88%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lbr_fri_idl/_lbr_fri_idl_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.676s] [ 89%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lbr_fri_idl/_lbr_fri_idl_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.706s] [ 91%] [32mBuilding C object CMakeFiles/lbr_fri_idl__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lbr_fri_idl/_lbr_fri_idl_s.ep.rosidl_typesupport_c.c.o[0m
+[9.998s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.084s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.091s] [ 94%] Built target lbr_fri_idl__rosidl_typesupport_c__pyext
+[10.160s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.182s] [ 95%] Built target lbr_fri_idl__rosidl_typesupport_introspection_c__pyext
+[10.263s] [ 95%] Built target lbr_fri_idl__rosidl_typesupport_fastrtps_c__pyext
+[18.296s] [ 97%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.332s] [ 97%] Built target gtest
+[18.357s] [ 98%] [32mBuilding CXX object CMakeFiles/lbr_fri_idl_test_command_interfaces.dir/test/test_command_interfaces.cpp.o[0m
+[19.307s] [100%] [32m[1mLinking CXX executable lbr_fri_idl_test_command_interfaces[0m
+[19.410s] [100%] Built target lbr_fri_idl_test_command_interfaces
+[19.425s] Invoked command in '/home/srl/lbr-stack/build/lbr_fri_idl' returned '0': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_fri_idl -- -j20 -l20
+[19.427s] Invoking command in '/home/srl/lbr-stack/build/lbr_fri_idl': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_fri_idl
+[19.435s] -- Install configuration: "Release"
+[19.435s] -- Execute custom install script
+[19.435s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/ament_index/resource_index/rosidl_interfaces/lbr_fri_idl
+[19.444s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__functions.h
+[19.452s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__struct.h
+[19.460s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__type_support.h
+[19.469s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__functions.h
+[19.477s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__struct.h
+[19.486s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__type_support.h
+[19.494s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__functions.h
+[19.503s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__struct.h
+[19.511s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__type_support.h
+[19.519s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__functions.h
+[19.528s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__struct.h
+[19.540s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__type_support.h
+[19.551s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__functions.h
+[19.563s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__struct.h
+[19.576s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__type_support.h
+[19.588s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_command.h
+[19.598s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_joint_position_command.h
+[19.607s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_state.h
+[19.616s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_torque_command.h
+[19.625s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_wrench_command.h
+[19.633s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/rosidl_generator_c__visibility_control.h
+[19.642s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/library_path.sh
+[19.651s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/library_path.dsv
+[19.660s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__rosidl_typesupport_fastrtps_c.h
+[19.669s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__rosidl_typesupport_fastrtps_c.h
+[19.678s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__rosidl_typesupport_fastrtps_c.h
+[19.688s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__rosidl_typesupport_fastrtps_c.h
+[19.696s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__rosidl_typesupport_fastrtps_c.h
+[19.704s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.715s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__builder.hpp
+[19.723s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__struct.hpp
+[19.730s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__traits.hpp
+[19.738s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__type_support.hpp
+[19.746s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__builder.hpp
+[19.756s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__struct.hpp
+[19.768s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__traits.hpp
+[19.779s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__type_support.hpp
+[19.787s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__builder.hpp
+[19.797s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__struct.hpp
+[19.806s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__traits.hpp
+[19.814s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__type_support.hpp
+[19.823s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__builder.hpp
+[19.831s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__struct.hpp
+[19.840s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__traits.hpp
+[19.851s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__type_support.hpp
+[19.858s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__builder.hpp
+[19.866s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__struct.hpp
+[19.874s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__traits.hpp
+[19.884s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__type_support.hpp
+[19.892s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_command.hpp
+[19.900s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_joint_position_command.hpp
+[19.912s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_state.hpp
+[19.921s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_torque_command.hpp
+[19.933s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/lbr_wrench_command.hpp
+[19.941s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.955s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__rosidl_typesupport_fastrtps_cpp.hpp
+[19.968s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__rosidl_typesupport_fastrtps_cpp.hpp
+[19.981s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__rosidl_typesupport_fastrtps_cpp.hpp
+[19.991s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__rosidl_typesupport_fastrtps_cpp.hpp
+[19.999s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__rosidl_typesupport_fastrtps_cpp.hpp
+[20.006s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.015s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__rosidl_typesupport_introspection_c.h
+[20.023s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__rosidl_typesupport_introspection_c.h
+[20.034s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__rosidl_typesupport_introspection_c.h
+[20.042s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__rosidl_typesupport_introspection_c.h
+[20.050s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__rosidl_typesupport_introspection_c.h
+[20.058s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.067s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_command__rosidl_typesupport_introspection_cpp.hpp
+[20.079s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_joint_position_command__rosidl_typesupport_introspection_cpp.hpp
+[20.090s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_state__rosidl_typesupport_introspection_cpp.hpp
+[20.098s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_torque_command__rosidl_typesupport_introspection_cpp.hpp
+[20.109s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/include/lbr_fri_idl/lbr_fri_idl/msg/detail/lbr_wrench_command__rosidl_typesupport_introspection_cpp.hpp
+[20.118s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/pythonpath.sh
+[20.127s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/pythonpath.dsv
+[20.135s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl-1.5.0-py3.10.egg-info/PKG-INFO
+[20.144s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl-1.5.0-py3.10.egg-info/SOURCES.txt
+[20.153s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl-1.5.0-py3.10.egg-info/dependency_links.txt
+[20.161s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl-1.5.0-py3.10.egg-info/top_level.txt
+[20.170s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/__init__.py
+[20.179s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/_lbr_fri_idl_s.ep.rosidl_typesupport_c.c
+[20.189s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/_lbr_fri_idl_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.197s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/_lbr_fri_idl_s.ep.rosidl_typesupport_introspection_c.c
+[20.207s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.220s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.228s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.239s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/liblbr_fri_idl__rosidl_generator_py.so
+[20.248s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/__init__.py
+[20.256s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_command.py
+[20.265s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_command_s.c
+[20.275s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_joint_position_command.py
+[20.282s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_joint_position_command_s.c
+[20.292s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_state.py
+[20.299s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_state_s.c
+[20.308s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_torque_command.py
+[20.317s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_torque_command_s.c
+[20.325s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_wrench_command.py
+[20.333s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_wrench_command_s.c
+[20.340s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.340s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.340s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/lbr_fri_idl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.341s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRCommand.idl
+[20.348s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRJointPositionCommand.idl
+[20.358s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRState.idl
+[20.369s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRTorqueCommand.idl
+[20.381s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRWrenchCommand.idl
+[20.390s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRCommand.msg
+[20.398s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRJointPositionCommand.msg
+[20.406s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRState.msg
+[20.417s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRTorqueCommand.msg
+[20.427s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/msg/LBRWrenchCommand.msg
+[20.435s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/ament_index/resource_index/package_run_dependencies/lbr_fri_idl
+[20.445s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/ament_index/resource_index/parent_prefix_path/lbr_fri_idl
+[20.456s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/ament_prefix_path.sh
+[20.468s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/ament_prefix_path.dsv
+[20.481s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/path.sh
+[20.494s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/environment/path.dsv
+[20.505s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/local_setup.bash
+[20.516s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/local_setup.sh
+[20.528s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/local_setup.zsh
+[20.540s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/local_setup.dsv
+[20.550s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/package.dsv
+[20.561s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/ament_index/resource_index/packages/lbr_fri_idl
+[20.573s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/rosidl_cmake-extras.cmake
+[20.584s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.595s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.605s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/ament_cmake_export_libraries-extras.cmake
+[20.616s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/ament_cmake_export_targets-extras.cmake
+[20.626s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.637s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.647s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idlConfig.cmake
+[20.658s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idlConfig-version.cmake
+[20.668s] -- Symlinking: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/package.xml
+[20.680s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_generator_c.so
+[20.680s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_generator_c.so" to ""
+[20.680s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_fastrtps_c.so
+[20.681s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_fastrtps_c.so" to ""
+[20.681s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_fastrtps_cpp.so
+[20.681s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.681s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_introspection_c.so
+[20.682s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_introspection_c.so" to ""
+[20.682s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_c.so
+[20.682s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_c.so" to ""
+[20.682s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_introspection_cpp.so
+[20.683s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_introspection_cpp.so" to ""
+[20.683s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_cpp.so
+[20.683s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_typesupport_cpp.so" to ""
+[20.741s] Listing '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl'...
+[20.741s] Compiling '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/__init__.py'...
+[20.742s] Listing '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg'...
+[20.742s] Compiling '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/__init__.py'...
+[20.742s] Compiling '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_command.py'...
+[20.742s] Compiling '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_joint_position_command.py'...
+[20.742s] Compiling '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_state.py'...
+[20.742s] Compiling '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_torque_command.py'...
+[20.742s] Compiling '/home/srl/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages/lbr_fri_idl/msg/_lbr_wrench_command.py'...
+[20.746s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_generator_py.so
+[20.746s] -- Set runtime path of "/home/srl/lbr-stack/install/lbr_fri_idl/lib/liblbr_fri_idl__rosidl_generator_py.so" to ""
+[20.747s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_generator_cExport.cmake
+[20.747s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_generator_cExport-release.cmake
+[20.747s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_typesupport_fastrtps_cExport.cmake
+[20.747s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_typesupport_fastrtps_cExport-release.cmake
+[20.748s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_generator_cppExport.cmake
+[20.748s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.748s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[20.748s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_introspection_cExport.cmake
+[20.748s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_introspection_cExport-release.cmake
+[20.749s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_cExport.cmake
+[20.749s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_cExport-release.cmake
+[20.749s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_introspection_cppExport.cmake
+[20.750s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_introspection_cppExport-release.cmake
+[20.750s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_cppExport.cmake
+[20.750s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/lbr_fri_idl__rosidl_typesupport_cppExport-release.cmake
+[20.750s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_generator_pyExport.cmake
+[20.751s] -- Installing: /home/srl/lbr-stack/install/lbr_fri_idl/share/lbr_fri_idl/cmake/export_lbr_fri_idl__rosidl_generator_pyExport-release.cmake
+[20.754s] Invoked command in '/home/srl/lbr-stack/build/lbr_fri_idl' returned '0': CMAKE_PREFIX_PATH=/home/srl/lbr-stack/install/fri_client_sdk:/home/srl/lbr-stack/install/test_ros_gz_bridge:/home/srl/lbr-stack/install/test_package:/home/srl/lbr-stack/install/ros_ign_interfaces:/home/srl/lbr-stack/install/ros_ign:/home/srl/lbr-stack/install/ros_ign_image:/home/srl/lbr-stack/install/ros_ign_gazebo_demos:/home/srl/lbr-stack/install/ros_ign_gazebo:/home/srl/lbr-stack/install/ros_ign_bridge:/home/srl/lbr-stack/install/ros_gz:/home/srl/lbr-stack/install/ros_gz_sim_demos:/home/srl/lbr-stack/install/lbr_fri_ros2_stack:/home/srl/lbr-stack/install/lbr_demos_cpp:/home/srl/lbr-stack/install/lbr_bringup:/home/srl/lbr-stack/install/ign_ros2_control_demos:/home/srl/lbr-stack/install/gz_ros2_control_demos:/home/srl/lbr-stack/install/ros_gz_sim:/home/srl/lbr-stack/install/ros_gz_image:/home/srl/lbr-stack/install/ros_gz_bridge:/home/srl/lbr-stack/install/ros_gz_interfaces:/home/srl/lbr-stack/install/my_package:/home/srl/lbr-stack/install/med7_moveit_config:/home/srl/lbr-stack/install/med14_moveit_config:/home/srl/lbr-stack/install/lbr_ros2_control:/home/srl/lbr-stack/install/lbr_moveit_cpp:/home/srl/lbr-stack/install/lbr_gazebo_models:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp:/home/srl/lbr-stack/install/lbr_fri_ros2:/home/srl/lbr-stack/install/lbr_fri_idl:/home/srl/lbr-stack/install/iiwa7_moveit_config:/home/srl/lbr-stack/install/iiwa14_moveit_config:/home/srl/lbr-stack/install/lbr_description:/home/srl/lbr-stack/install/ign_ros2_control:/home/srl/lbr-stack/install/gz_ros2_control_tests:/home/srl/lbr-stack/install/gz_ros2_control:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble LD_LIBRARY_PATH=/home/srl/lbr-stack/install/fri_client_sdk/lib:/home/srl/lbr-stack/install/test_package/lib:/home/srl/lbr-stack/install/ros_ign_interfaces/lib:/home/srl/lbr-stack/install/ros_gz_sim/lib:/home/srl/lbr-stack/install/ros_gz_bridge/lib:/home/srl/lbr-stack/install/ros_gz_interfaces/lib:/home/srl/lbr-stack/install/lbr_ros2_control/lib:/home/srl/lbr-stack/install/lbr_demos_advanced_cpp/lib:/home/srl/lbr-stack/install/lbr_fri_ros2/lib:/home/srl/lbr-stack/install/lbr_fri_idl/lib:/home/srl/lbr-stack/install/gz_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_fri_idl

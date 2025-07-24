@@ -1,0 +1,12 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** [CMakeFiles/gz_ros2_control-system.dir/build.make:76: CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/gz_hardware_plugins.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/gz_ros2_control-system.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ign_ros2_control-system.dir/build.make:76: CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ign_ros2_control-system.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

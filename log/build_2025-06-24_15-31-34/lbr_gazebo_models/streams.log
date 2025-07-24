@@ -1,0 +1,51 @@
+[0.024s] Invoking command in '/home/srl/lbr-stack/build/lbr_gazebo_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/lbr_gazebo_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/lbr_gazebo_models
+[0.262s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.263s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.521s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.663s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.750s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.750s] -- Configured cppcheck include dirs: 
+[0.750s] -- Configured cppcheck exclude dirs and/or files: 
+[0.752s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.755s] -- Added test 'lint_cmake' to check CMake code style
+[0.756s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.763s] -- Added test 'uncrustify' to check C / C++ code style
+[0.763s] -- Configured uncrustify additional arguments: 
+[0.765s] -- Added test 'xmllint' to check XML markup files
+[0.766s] -- Configuring done
+[0.768s] -- Generating done
+[0.770s] -- Build files have been written to: /home/srl/lbr-stack/build/lbr_gazebo_models
+[0.778s] Invoked command in '/home/srl/lbr-stack/build/lbr_gazebo_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/lbr_gazebo_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/lbr_gazebo_models
+[0.779s] Invoking command in '/home/srl/lbr-stack/build/lbr_gazebo_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_gazebo_models -- -j20 -l20
+[0.810s] Invoked command in '/home/srl/lbr-stack/build/lbr_gazebo_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_gazebo_models -- -j20 -l20
+[0.823s] Invoking command in '/home/srl/lbr-stack/build/lbr_gazebo_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_gazebo_models
+[0.834s] -- Install configuration: ""
+[0.834s] -- Execute custom install script
+[0.835s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/ament_index/resource_index/package_run_dependencies/lbr_gazebo_models
+[0.843s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/ament_index/resource_index/parent_prefix_path/lbr_gazebo_models
+[0.853s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/ament_prefix_path.sh
+[0.863s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/ament_prefix_path.dsv
+[0.870s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/path.sh
+[0.881s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/path.dsv
+[0.892s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.bash
+[0.900s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.sh
+[0.908s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.zsh
+[0.918s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.dsv
+[0.927s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/package.dsv
+[0.936s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/ament_index/resource_index/packages/lbr_gazebo_models
+[0.948s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/cmake/lbr_gazebo_modelsConfig.cmake
+[0.961s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/cmake/lbr_gazebo_modelsConfig-version.cmake
+[0.973s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/package.xml
+[0.987s] Invoked command in '/home/srl/lbr-stack/build/lbr_gazebo_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_gazebo_models

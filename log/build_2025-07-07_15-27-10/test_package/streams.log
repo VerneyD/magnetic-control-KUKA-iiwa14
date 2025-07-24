@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.074s] [ 50%] Built target my_box_ign_plugin
+[0.078s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[0.256s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kignition/gazebo/components/JointPositionCmd.hh: No such file or directory
+[0.256s]     3 | #include [01;31m[K<ignition/gazebo/components/JointPositionCmd.hh>[m[K  // ✅ Important
+[0.256s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.256s] compilation terminated.
+[0.261s] gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+[0.261s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+[0.262s] gmake: *** [Makefile:146: all] Error 2
+[0.264s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

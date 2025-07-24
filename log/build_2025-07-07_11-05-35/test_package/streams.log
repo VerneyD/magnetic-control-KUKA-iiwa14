@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.069s] [ 50%] Built target my_box_ign_plugin
+[0.077s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[3.299s] In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+[3.300s]                  from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+[3.300s]                  from [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:5[m[K:
+[3.300s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In constructor ‘[01m[Kignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::ExecuteWhenLoadingLibrary0()[m[K’:
+[3.300s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:109:15:[m[K [01;31m[Kerror: [m[K‘[01m[KRealRobotSyncPlugin[m[K’ is not a member of ‘[01m[Kmy_plugins[m[K’
+[3.300s]   109 |   my_plugins::[01;31m[KRealRobotSyncPlugin[m[K,
+[3.300s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:108:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.300s]   108 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(
+[3.300s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In constructor ‘[01m[Kignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary1::ExecuteWhenLoadingLibrary1()[m[K’:
+[3.300s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:114:39:[m[K [01;31m[Kerror: [m[K‘[01m[KRealRobotSyncPlugin[m[K’ is not a member of ‘[01m[Kmy_plugins[m[K’
+[3.300s]   114 | IGNITION_ADD_PLUGIN_ALIAS(my_plugins::[01;31m[KRealRobotSyncPlugin[m[K, "my_plugins::RealRobotSyncPlugin")
+[3.300s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:114:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.300s]   114 | [01;31m[KIGNITION_ADD_PLUGIN_ALIAS[m[K(my_plugins::RealRobotSyncPlugin, "my_plugins::RealRobotSyncPlugin")
+[3.300s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:114:60:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.300s]   114 | IGNITION_ADD_PLUGIN_ALIAS(my_plugins::RealRobotSyncPlugin, [01;31m[K"my_plugins::RealRobotSyncPlugin"[m[K)
+[3.300s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.300s]       |                                                            [01;31m[K|[m[K
+[3.300s]       |                                                            [01;31m[Kconst char*[m[K
+[5.002s] gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+[5.002s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+[5.002s] gmake: *** [Makefile:146: all] Error 2
+[5.005s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

@@ -1,0 +1,23 @@
+[0.278s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.352s] [ 50%] Built target my_box_ign_plugin
+[0.363s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[5.042s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In lambda function:
+[5.043s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_ecm[m[K’ was not declared in this scope; did you mean ‘[01m[Kecm[m[K’?
+[5.043s]    54 |     [01;31m[K_ecm[m[K.Each<ignition::gazebo::components::Name,
+[5.043s]       |     [01;31m[K^~~~[m[K
+[5.043s]       |     [32m[Kecm[m[K
+[5.043s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:54:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.043s]    54 |     _ecm.Each<ignition::gazebo::components::Name[01;31m[K,[m[K
+[5.043s]       |                                                 [01;31m[K^[m[K
+[5.043s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:55:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.043s]    55 |           ignition::gazebo::components::Joint[01;31m[K>[m[K(
+[5.043s]       |                                              [01;31m[K^[m[K
+[5.043s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In lambda function:
+[5.043s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:56:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kentity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.043s]    56 |   [&]([01;35m[Kconst ignition::gazebo::Entity &entity[m[K,
+[5.043s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.100s] gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+[7.101s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+[7.101s] gmake: *** [Makefile:146: all] Error 2
+[7.104s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

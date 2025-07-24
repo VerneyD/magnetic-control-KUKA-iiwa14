@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-eee830f09d86384edd16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "buoyancy_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buoyancy_plugin-242be37b012561fa5a4f.json",
+					"name" : "buoyancy_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "command_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_listener-4089ca3c47922e4d1946.json",
+					"name" : "command_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "command_publisher2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_publisher2-c4cd791273ae86464c54.json",
+					"name" : "command_publisher2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "command_publisher3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_publisher3-42925a88ee97840b0c2a.json",
+					"name" : "command_publisher3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "end_effector_position_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-end_effector_position_node-037b15b6627f936c0a8f.json",
+					"name" : "end_effector_position_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_package_uninstall-7c860cbb86f8fcc70628.json",
+					"name" : "my_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "position_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-position_control-8c27b3d3b706b903126c.json",
+					"name" : "position_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reset_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reset_position-c245fac6fc2234b241b4.json",
+					"name" : "reset_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_info::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_info-8cf08971f7985d0fe601.json",
+					"name" : "robot_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_info_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_info_controller-e3b2e92f0184e73e62bb.json",
+					"name" : "robot_info_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_plugin-79541956ef985e8b3ec9.json",
+					"name" : "test_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7adcd85607ee999e8e0a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/srl/lbr-stack/src/build/my_package",
+		"source" : "/home/srl/lbr-stack/src/my_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

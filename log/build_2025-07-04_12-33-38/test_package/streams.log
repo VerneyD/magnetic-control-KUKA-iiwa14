@@ -1,0 +1,40 @@
+[0.206s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.247s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.252s] [ 50%] Built target my_box_ign_plugin
+[0.265s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[3.780s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RealRobotSyncPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’:
+[3.780s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:25:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kecm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.780s]    25 |     [01;35m[Kignition::gazebo::EntityComponentManager &ecm[m[K,
+[3.780s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.780s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RealRobotSyncPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[3.780s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:65:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto poseComp[m[K’
+[3.780s]    65 |     auto [01;31m[KposeComp[m[K = _ecm.Component<ignition::gazebo::components::Pose>(entity);
+[3.780s]       |          [01;31m[K^~~~~~~~[m[K
+[3.781s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:64:11:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kignition::gazebo::v6::components::Component<ignition::math::v6::Pose3<double>, ignition::gazebo::v6::components::PoseTag>* poseComp[m[K’
+[3.781s]    64 |     auto *[01;36m[KposeComp[m[K = ecm.Component<ignition::gazebo::components::Pose>(modelEntity);
+[3.781s]       |           [01;36m[K^~~~~~~~[m[K
+[3.790s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:65:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_ecm[m[K’ was not declared in this scope; did you mean ‘[01m[Kecm[m[K’?
+[3.790s]    65 |     auto poseComp = [01;31m[K_ecm[m[K.Component<ignition::gazebo::components::Pose>(entity);
+[3.790s]       |                     [01;31m[K^~~~[m[K
+[3.790s]       |                     [32m[Kecm[m[K
+[3.790s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:65:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.790s]    65 |     auto poseComp = _ecm.Component<ignition::gazebo::components::Pose[01;31m[K>[m[K(entity);
+[3.790s]       |                                                                      [01;31m[K^[m[K
+[3.794s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:65:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kentity[m[K’ was not declared in this scope
+[3.794s]    65 |     auto poseComp = _ecm.Component<ignition::gazebo::components::Pose>([01;31m[Kentity[m[K);
+[3.794s]       |                                                                        [01;31m[K^~~~~~[m[K
+[3.794s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:68:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::components::Component<ignition::math::v6::Pose3<double>, ignition::gazebo::v6::components::PoseTag>::SetData(ignition::math::v6::Pose3d&)[m[K’
+[3.794s]    68 |     [01;31m[KposeComp->SetData(newPose)[m[K;  // ✅ CORRECT
+[3.794s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.794s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:41[m[K,
+[3.794s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+[3.794s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+[3.794s]                  from [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:1[m[K:
+[3.794s] [01m[K/usr/include/ignition/gazebo6/gz/sim/components/Component.hh:459:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ignition::gazebo::v6::components::Component<DataType, Identifier, Serializer>::SetData(const DataType&, const std::function<bool(const DataType&, const DataType&)>&) [with DataType = ignition::math::v6::Pose3<double>; Identifier = ignition::gazebo::v6::components::PoseTag; Serializer = ignition::gazebo::v6::serializers::DefaultSerializer<ignition::math::v6::Pose3<double> >][m[K’
+[3.794s]   459 |   bool [01;36m[KComponent<DataType, Identifier, Serializer>[m[K::SetData(
+[3.794s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.794s] [01m[K/usr/include/ignition/gazebo6/gz/sim/components/Component.hh:459:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[5.642s] gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+[5.642s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+[5.642s] gmake: *** [Makefile:146: all] Error 2
+[5.644s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

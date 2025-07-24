@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.077s] [ 50%] Built target my_box_ign_plugin
+[0.083s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[3.819s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RobotMovementPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[3.819s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:102:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kignition::gazebo::v6::components::Component<std::vector<double>, ignition::gazebo::v6::components::JointPositionTag, ignition::gazebo::v6::serializers::VectorDoubleSerializer>::typeId[m[K’ cannot be used as a function
+[3.819s]   102 |         ecm.SetChanged(jointEntity, [01;31m[Kignition::gazebo::components::JointPosition::typeId()[m[K,
+[3.819s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.024s] gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+[6.025s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+[6.025s] gmake: *** [Makefile:146: all] Error 2
+[6.027s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

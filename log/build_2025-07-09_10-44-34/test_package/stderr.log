@@ -1,0 +1,4 @@
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RobotMovementPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:117:14:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KAdjust[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  117 |       switch [01;35m[K([m[KcurrentState)
+      |              [01;35m[K^[m[K

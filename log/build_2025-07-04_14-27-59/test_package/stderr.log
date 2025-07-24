@@ -1,0 +1,24 @@
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RealRobotSyncPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:68:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   68 |     [01;35m[Kif[m[K (!this->lastJointState)
+      |     [01;35m[K^~[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:71:7:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   71 |       [01;36m[K_ecm[m[K.Each<ignition::gazebo::components::Name,
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:71:7:[m[K [01;31m[Kerror: [m[K‘[01m[K_ecm[m[K’ was not declared in this scope; did you mean ‘[01m[Kecm[m[K’?
+   71 |       [01;31m[K_ecm[m[K.Each<ignition::gazebo::components::Name,
+      |       [01;31m[K^~~~[m[K
+      |       [32m[Kecm[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:71:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   71 |       _ecm.Each<ignition::gazebo::components::Name[01;31m[K,[m[K
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:72:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   72 |           ignition::gazebo::components::Joint[01;31m[K>[m[K(
+      |                                              [01;31m[K^[m[K
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In lambda function:
+[01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:73:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kentity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   73 |   [&]([01;35m[Kconst ignition::gazebo::Entity &entity[m[K,
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

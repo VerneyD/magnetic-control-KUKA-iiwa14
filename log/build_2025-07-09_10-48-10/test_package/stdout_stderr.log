@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[ 50%] Built target my_box_ign_plugin
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

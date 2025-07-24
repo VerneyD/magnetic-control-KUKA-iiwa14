@@ -1,0 +1,12 @@
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target ros_gz_sim
+[ 70%] [32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o[0m
+[ 90%] Built target test_stopwatch
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

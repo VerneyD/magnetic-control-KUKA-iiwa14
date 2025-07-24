@@ -1,0 +1,21 @@
+[0.029s] Invoking command in '/home/srl/lbr-stack/build/lbr_gazebo_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_gazebo_models -- -j20 -l20
+[0.240s] Invoked command in '/home/srl/lbr-stack/build/lbr_gazebo_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/lbr_gazebo_models -- -j20 -l20
+[0.242s] Invoking command in '/home/srl/lbr-stack/build/lbr_gazebo_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_gazebo_models
+[0.253s] -- Install configuration: ""
+[0.253s] -- Execute custom install script
+[0.253s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/ament_index/resource_index/package_run_dependencies/lbr_gazebo_models
+[0.256s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/ament_index/resource_index/parent_prefix_path/lbr_gazebo_models
+[0.256s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/ament_prefix_path.sh
+[0.256s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/ament_prefix_path.dsv
+[0.257s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/path.sh
+[0.257s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/environment/path.dsv
+[0.257s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.bash
+[0.257s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.sh
+[0.257s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.zsh
+[0.257s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/local_setup.dsv
+[0.258s] -- Symlinking: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/package.dsv
+[0.261s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/ament_index/resource_index/packages/lbr_gazebo_models
+[0.265s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/cmake/lbr_gazebo_modelsConfig.cmake
+[0.265s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/cmake/lbr_gazebo_modelsConfig-version.cmake
+[0.265s] -- Up-to-date symlink: /home/srl/lbr-stack/install/lbr_gazebo_models/share/lbr_gazebo_models/package.xml
+[0.280s] Invoked command in '/home/srl/lbr-stack/build/lbr_gazebo_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/lbr_gazebo_models

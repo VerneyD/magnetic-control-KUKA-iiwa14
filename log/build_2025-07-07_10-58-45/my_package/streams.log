@@ -1,0 +1,152 @@
+[0.009s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/my_package -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/my_package
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.120s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.142s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.145s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.150s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.185s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.206s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.227s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.230s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.341s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.397s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.397s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.429s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.459s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.461s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.465s] -- Searching for dependencies of ignition-math6
+[0.467s] -- Looking for OGRE...
+[0.473s] -- Found Ogre Ghadamon (1.9.0)
+[0.473s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.480s] -- Looking for OGRE_Paging...
+[0.480s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.480s] -- Looking for OGRE_Terrain...
+[0.480s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.480s] -- Looking for OGRE_Property...
+[0.480s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.480s] -- Looking for OGRE_RTShaderSystem...
+[0.480s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.481s] -- Looking for OGRE_Volume...
+[0.481s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.481s] -- Looking for OGRE_Overlay...
+[0.481s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.576s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.583s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.583s] -- Searching for dependencies of ignition-transport8
+[0.596s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.604s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.609s] -- Checking for module 'libzmq >= 4'
+[0.624s] --   Found libzmq , version 4.3.4
+[0.689s] -- Checking for module 'uuid'
+[0.714s] --   Found uuid, version 2.37.2
+[0.762s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.763s] -- Searching for dependencies of ignition-msgs5
+[0.777s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.782s] -- Checking for module 'tinyxml2'
+[0.799s] --   Found tinyxml2, version 9.0.0
+[0.856s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.857s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.858s] -- Searching for dependencies of ignition-common3
+[0.858s] -- Looking for dlfcn.h - found
+[0.858s] -- Looking for libdl - found
+[0.878s] -- Searching for <ignition-common3> component [graphics]
+[0.879s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.879s] -- Searching for dependencies of ignition-common3-graphics
+[0.880s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.881s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.881s] -- Searching for dependencies of ignition-fuel_tools4
+[0.917s] -- Checking for module 'jsoncpp'
+[0.940s] --   Found jsoncpp, version 1.9.5
+[1.006s] -- Checking for module 'libzip'
+[1.030s] --   Found libzip, version 1.7.3
+[1.088s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.088s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.089s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.094s] -- Gazebo version: 11.10
+[1.095s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.096s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.163s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.206s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.209s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.210s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.224s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.224s] -- Configured cppcheck include dirs: 
+[1.224s] -- Configured cppcheck exclude dirs and/or files: 
+[1.225s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.226s] -- Added test 'lint_cmake' to check CMake code style
+[1.227s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.231s] -- Added test 'uncrustify' to check C / C++ code style
+[1.231s] -- Configured uncrustify additional arguments: 
+[1.232s] -- Added test 'xmllint' to check XML markup files
+[1.233s] -- Configuring done
+[1.256s] -- Generating done
+[1.266s] -- Build files have been written to: /home/srl/lbr-stack/build/my_package
+[1.274s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake /home/srl/lbr-stack/src/my_package -DCMAKE_INSTALL_PREFIX=/home/srl/lbr-stack/install/my_package
+[1.275s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[1.306s] [35m[1mConsolidate compiler generated dependencies of target command_publisher2[0m
+[1.307s] [35m[1mConsolidate compiler generated dependencies of target reset_position[0m
+[1.307s] [35m[1mConsolidate compiler generated dependencies of target position_control[0m
+[1.307s] [35m[1mConsolidate compiler generated dependencies of target end_effector_position_node[0m
+[1.307s] [35m[1mConsolidate compiler generated dependencies of target joint_state_pub[0m
+[1.310s] [35m[1mConsolidate compiler generated dependencies of target robot_info[0m
+[1.310s] [35m[1mConsolidate compiler generated dependencies of target command_listener[0m
+[1.311s] [35m[1mConsolidate compiler generated dependencies of target robot_info_controller[0m
+[1.311s] [35m[1mConsolidate compiler generated dependencies of target command_publisher3[0m
+[1.322s] [ 11%] Built target command_publisher2
+[1.322s] [ 22%] Built target reset_position
+[1.324s] [ 33%] Built target end_effector_position_node
+[1.325s] [ 44%] Built target joint_state_pub
+[1.326s] [ 55%] Built target position_control
+[1.326s] [ 66%] Built target command_publisher3
+[1.326s] [ 77%] Built target robot_info_controller
+[1.331s] [ 88%] Built target command_listener
+[1.331s] [100%] Built target robot_info
+[1.341s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/my_package -- -j20 -l20
+[1.349s] Invoking command in '/home/srl/lbr-stack/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package
+[1.353s] -- Install configuration: ""
+[1.354s] -- Execute custom install script
+[1.354s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/position_control_gui.py
+[1.354s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/joint_state_pub
+[1.354s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher2
+[1.354s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_listener
+[1.354s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/command_publisher3
+[1.354s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/reset_position
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/robot_info
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/robot_info_controller
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/end_effector_position_node
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/lib/my_package/position_control
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_complete.launch.py
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_for_hardware.launch.py
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_move.launch.py
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/gazebo_simu_robot.launch.py
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/hardware_for_gazebo.launch.py
+[1.355s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/hardware_gazebo_joint_control.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/move_group_hw.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_launch2.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_launch3.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_launch_rviz.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_position.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_reset.launch.py
+[1.356s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_robot_info.launch.py
+[1.356s] -- Symlinking: /home/srl/lbr-stack/install/my_package/share/my_package/launch/my_world.launch.py
+[1.363s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.363s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.sh
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/environment/path.dsv
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.bash
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.sh
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.zsh
+[1.364s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/local_setup.dsv
+[1.364s] -- Symlinking: /home/srl/lbr-stack/install/my_package/share/my_package/package.dsv
+[1.370s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.370s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.370s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.370s] -- Up-to-date symlink: /home/srl/lbr-stack/install/my_package/share/my_package/package.xml
+[1.372s] Invoked command in '/home/srl/lbr-stack/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/my_package

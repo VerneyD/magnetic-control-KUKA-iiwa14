@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[ 50%] Built target my_box_ign_plugin
+[100%] Built target robot_movement_plugin
+-- Install configuration: ""
+-- Installing: /home/srl/lbr-stack/install/test_package/share/test_package/package.dsv

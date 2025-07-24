@@ -1,0 +1,12 @@
+[0.020s] Invoking command in '/home/srl/lbr-stack/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target robot_movement_plugin[0m
+[0.084s] [ 50%] Built target my_box_ign_plugin
+[0.093s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o[0m
+[3.926s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void my_plugins::RobotMovementPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[3.926s] [01m[K/home/srl/lbr-stack/src/test_package/src/robot_movement_plugin.cpp:102:88:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kignition::gazebo::v6::ComponentTypeId ignition::gazebo::v6::components::Component<DataType, Identifier, Serializer>::TypeId() const [with DataType = std::vector<double>; Identifier = ignition::gazebo::v6::components::JointPositionTag; Serializer = ignition::gazebo::v6::serializers::VectorDoubleSerializer; ignition::gazebo::v6::ComponentTypeId = long unsigned int][m[K’ without object
+[3.927s]   102 |         ecm.SetChanged(jointEntity, [01;31m[Kignition::gazebo::components::JointPosition::TypeId()[m[K,
+[3.927s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.138s] gmake[2]: *** [CMakeFiles/robot_movement_plugin.dir/build.make:76: CMakeFiles/robot_movement_plugin.dir/src/robot_movement_plugin.cpp.o] Error 1
+[6.138s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_movement_plugin.dir/all] Error 2
+[6.138s] gmake: *** [Makefile:146: all] Error 2
+[6.140s] Invoked command in '/home/srl/lbr-stack/build/test_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/test_package -- -j20 -l20

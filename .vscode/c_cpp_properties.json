@@ -13,7 +13,9 @@
         "/home/srl/lbr-stack/src/command_control/include/**",
         "/home/srl/lbr-stack/src/lbr_fri_ros2_stack/lbr_fri_ros2/include/**",
         "/home/srl/lbr-stack/src/lbr_fri_ros2_stack/lbr_ros2_control/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "/usr/include/gazebo-11/**",
+        "/usr/include/ignition/math6/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

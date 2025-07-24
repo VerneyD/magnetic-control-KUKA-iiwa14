@@ -56,8 +56,8 @@ private:
         trajectory_msgs::msg::JointTrajectoryPoint point;
         
         point.positions = {
-            -2.9, -0.7854, 0.0,
-            1.3962, 0.0, -0.9600, 0.0
+            -1.57, -0.663, 0.0,
+            1.309, 0.0, -1.169, 0.0
         };
         final_positions = point.positions;
 

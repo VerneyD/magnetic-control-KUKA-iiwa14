@@ -1,0 +1,1 @@
+/home/srl/lbr-stack/src/my_package/launch/gazebo_simu_robot.launch.py

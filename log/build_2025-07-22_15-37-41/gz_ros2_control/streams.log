@@ -1,0 +1,42 @@
+[0.050s] Invoking command in '/home/srl/lbr-stack/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/gz_ros2_control -- -j20 -l20
+[0.324s] [ 16%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[0.324s] [ 33%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[0.324s] [ 50%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[22.558s] [ 66%] [32m[1mLinking CXX shared library libgz_hardware_plugins.so[0m
+[24.111s] [ 66%] Built target gz_hardware_plugins
+[25.815s] [ 83%] [32m[1mLinking CXX shared library libgz_ros2_control-system.so[0m
+[27.068s] [ 83%] Built target gz_ros2_control-system
+[27.470s] [100%] [32m[1mLinking CXX shared library libign_ros2_control-system.so[0m
+[29.006s] [100%] Built target ign_ros2_control-system
+[29.036s] Invoked command in '/home/srl/lbr-stack/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --build /home/srl/lbr-stack/build/gz_ros2_control -- -j20 -l20
+[29.037s] Invoking command in '/home/srl/lbr-stack/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/gz_ros2_control
+[29.048s] -- Install configuration: ""
+[29.049s] -- Execute custom install script
+[29.050s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+[29.050s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control_plugin.hpp
+[29.051s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/include/gz_ros2_control/gz_system.hpp
+[29.051s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp
+[29.052s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+[29.055s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+[29.055s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+[29.055s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/lib/libign_ros2_control-system.so
+[29.055s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control//gz_hardware_plugins.xml
+[29.056s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+[29.057s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+[29.057s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+[29.057s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+[29.057s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+[29.058s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+[29.058s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+[29.060s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+[29.060s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+[29.060s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+[29.061s] -- Symlinking: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+[29.078s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+[29.079s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+[29.080s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.080s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[29.081s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+[29.083s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+[29.085s] -- Up-to-date symlink: /home/srl/lbr-stack/install/gz_ros2_control/share/gz_ros2_control/package.xml
+[29.090s] Invoked command in '/home/srl/lbr-stack/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srl/lbr-stack/install/lbr_demos_py:/home/srl/lbr-stack/install/lbr_moveit:/home/srl/lbr-stack/install/lbr_demos_advanced_py:/opt/ros/humble /usr/bin/cmake --install /home/srl/lbr-stack/build/gz_ros2_control

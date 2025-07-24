@@ -1,0 +1,8 @@
+Built target ament_cmake_python_symlink_lbr_bringup
+running egg_info
+writing lbr_bringup.egg-info/PKG-INFO
+writing dependency_links to lbr_bringup.egg-info/dependency_links.txt
+writing top-level names to lbr_bringup.egg-info/top_level.txt
+reading manifest file 'lbr_bringup.egg-info/SOURCES.txt'
+writing manifest file 'lbr_bringup.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_lbr_bringup_egg
