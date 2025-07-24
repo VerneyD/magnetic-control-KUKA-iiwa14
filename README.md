@@ -60,7 +60,7 @@ ros2 launch package_name launch_file
 ```
 
 For instance `ros2 launch my_package my.launch_rviz.launch.py`. This launch files will launch the simulation of the robot, and you will be able to control the joints values using the Rviz interface.
-I created a GUI to make it easier to launch those launch files. To use the GUI: run the gui.py file in VisualStudioCode (not in terminal) - `/home/srl/lbr-stack/src/my_package/src/gui.py`. This window will pop:
+I created a GUI to make it easier to launch those launch files. To use the GUI: run the gui.py file in VisualStudioCode (not in terminal) - `/home/srl/lbr-stack/src/my_package/src/gui.py`. A window will pop:
 
 Each button is linked to a launch file. In the next parts of the guide, I will often refer to these buttons.
 
@@ -92,7 +92,7 @@ Here is a brief description of all the possible controls of the hardware (the bu
 - **Reset hardware position**: This button needs to be used with another one which is for instance ‘Hardware control of the joints with Moveit’. That is because what this launch file does is, it sends joint values to the robot, which is then going to move to this state. However, this launch file does not launch the programs that make the robot move, so if you launch it alone, it is not going to do anything except sending values in the void. Launching ‘Hardware control of the joints with Moveit’ will launch the nodes that make the robot move.
 You can also change the reset position of the robot which is defined in this file: `/home/srl/lbr-stack/src/my_package/src/reset_position.cpp`, line 58.
 
-- **Hardware setup to start controlling position with position_control_gui**: This button will start a position control of the end-effector of the robot. In order for it to work properly, run the `/home/srl/lbr-stack/src/my_package/src/position_control_gui.py` at the same time (in the terminal, type `code /home/srl/lbr-stack/src/my_package/src/position_control_gui.py` and it will bring you to the file in VSC, then press the run button). You should see the following window pop up:
+- **Hardware setup to start controlling position with position_control_gui**: This button will start a position control of the end-effector of the robot. In order for it to work properly, run the `/home/srl/lbr-stack/src/my_package/src/position_control_gui.py` at the same time (in the terminal, type `code /home/srl/lbr-stack/src/my_package/src/position_control_gui.py` and it will bring you to the file in VSC, then press the run button). A window should pop up.
 And the first three coordinates should not be zero if you pressed the ‘Hardware setup to start controlling position with position_control_gui’ button first. You can then use the sliders to get to a particular position.
 If the robot needs to go through a singularity, it will simply stop and you can close the window and launch it again to go away from the singularity. There are three other sliders at the bottom of the window so that if you have a local reset position, you can access it easier by putting the values in those sliders.
 You can also change the speed of the effector. The movement is usually very precise (millimeter scale) but if you increase the speed a lot it might sometimes be going one or two millimeters further than your input) but I think it is pretty rare.
